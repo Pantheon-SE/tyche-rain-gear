@@ -8,4 +8,4 @@ $email = $_POST['user_email'];
 
 // Install from profile.
 echo "Installing rain_demo profile...\n";
-passthru("./drush_install.sh $email $title");
+passthru("./drush_install.sh $email $title &");
