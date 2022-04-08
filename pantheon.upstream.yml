@@ -23,6 +23,3 @@ workflows:
       - description: "Install site profile"
         script: private/scripts/drush_site_install/drush_site_install.php
         type: webphp
-      - description: "Install default content"
-        script: private/scripts/drush_site_install/drush_site_install_content.php
-        type: webphp
