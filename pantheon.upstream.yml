@@ -2,7 +2,7 @@ api_version: 1
 web_docroot: true
 # See https://pantheon.io/docs/pantheon-yml/#enforce-https--hsts for valid values.
 enforce_https: transitional
-php_version: 7.4
+php_version: 8.0
 database:
   version: 10.4
 drush_version: 10
@@ -11,3 +11,18 @@ protected_web_paths:
   - /private/
   - /sites/default/files/private/
   - /sites/default/files/config/
+
+# Quicksilver hooks
+workflows:
+  # New site creation
+  deploy_product:
+    after:
+      - description: "Enable Pantheon settings"
+        script: private/scripts/pantheon/pantheon.php
+        type: webphp
+      - description: "Install site profile"
+        script: private/scripts/drush_site_install/drush_site_install.php
+        type: webphp
+      - description: "Install default content"
+        script: private/scripts/drush_site_install/drush_site_install_content.php
+        type: webphp
