@@ -18,7 +18,7 @@ if (isset($_POST['environment'])) {
   print_r($bindings);
   $nr = false;
   foreach ($bindings as $binding) {
-    if ($bindings['type'] == 'newrelic') {
+    if ($binding['type'] == 'newrelic') {
       $nr = true;
       break;
     }
@@ -26,6 +26,7 @@ if (isset($_POST['environment'])) {
 
   // If New Relic not detected, enable New Relic.
   if ($nr == false) {
-    $req = pantheon_curl('https://api.live.getpantheon.com/sites/self/workflows', '{"type":"enable_new_relic_for_site","params":{"converge":true}}', 8443, 'PUT');
+    // disable for now
+    //$req = pantheon_curl('https://api.live.getpantheon.com/sites/self/workflows', '{"type":"enable_new_relic_for_site","params":{"converge":true}}', 8443, 'PUT');
   }
 }
