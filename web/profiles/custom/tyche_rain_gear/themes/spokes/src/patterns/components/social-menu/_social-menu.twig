@@ -1,0 +1,13 @@
+{{ attach_library('spokes/social-menu') }}
+{% import '@spokes/icons/_icons-macro.twig' as icons %}
+
+{% embed '@spokes/menu/menu.twig' with {
+  items: items,
+  modifier: 'site-footer__social'
+} %}
+  {% block menu_item %}
+    <a href="{{ item.url }}" class="site-footer__social-icon">
+      {{ icons.get(item.title|lower) }}
+    </a>
+  {% endblock %}
+{% endembed %}

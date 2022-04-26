@@ -1,0 +1,9 @@
+{
+  "name": "reinette/tyche_rain_gear",
+  "description": "Tyche Profile Template",
+  "type": "drupal-profile",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "composer/installers": "~1.0"
+  }
+}

@@ -1,0 +1,117 @@
+# Generated on 2020-08-04 using generator-mc-d8-theme 2.3.0
+
+# Drupal's .info.yml files allow themers to easily specify some of the static
+# properties of your theme. Properties such as its name, libraries of style
+# sheets and javascripts, and block regions.
+#
+# Drupal 8 stores a cache of the data in this .info.yml files. If you modify any
+# lines in this file, you MUST refresh Drupal 8's cache. You can do this with
+# the "drush cr" command or by simply visiting the Appearance page at
+# admin/appearance.
+
+name: Nimbus Theme
+type: theme
+description: Minimalist theme based on Rain parent theme.
+package: Other
+core: 8.x
+core_version_requirement: '^8 || ^9'
+base theme: rain_theme
+
+# This section controls the libraries for your theme. For full documentation,
+# see https://www.drupal.org/node/2216195
+
+# The "libraries-override:" section will allow you to:
+# - Replace an entire library.
+# - Remove an entire library.
+# - Replace an asset in a library with another asset.
+# - Remove an asset from a library.
+libraries-override:
+  system/base:
+    css:
+      component:
+        # Replace one file with another.
+        /core/themes/stable/css/system/components/hidden.module.css: dist/css/hidden.css
+
+# The "libraries-extend:" section will allow you to add your own JS or CSS to
+# existing libraries.
+# libraries-extend:
+libraries-extend:
+  rain_theme/accordion:
+    - spokes/accordion
+  rain_theme/card:
+    - spokes/card
+  rain_theme/card-list:
+    - spokes/card-list
+  rain_theme/gallery-carousel:
+    - spokes/gallery-carousel
+  rain_theme/heading:
+    - spokes/heading
+  rain_theme/hero:
+    - spokes/hero
+  rain_theme/l-flex:
+    - spokes/l-flex
+  rain_theme/main-menu:
+    - spokes/main-menu
+  rain_theme/map:
+    - spokes/map
+  rain_theme/messages:
+    - spokes/messages
+  rain_theme/news-teaser:
+    - spokes/news-teaser
+  rain_theme/page-title:
+    - spokes/page-title
+  rain_theme/pager:
+    - spokes/pager
+  rain_theme/quote:
+    - spokes/quote
+  rain_theme/search-api-results:
+    - spokes/search-api-results
+  rain_theme/search-box:
+    - spokes/search-box
+  rain_theme/site-branding:
+    - spokes/site-branding
+  rain_theme/site-footer:
+    - spokes/site-footer
+  rain_theme/site-header:
+    - spokes/site-header
+  rain_theme/tabs:
+    - spokes/tabs
+  rain_theme/user-account-nav:
+    - spokes/user-account-nav
+
+# The "libraries:" section will add a library to _all_ pages.
+libraries:
+  - spokes/global
+  # Example adding the webfonts library to every page.
+  # See spokes.libraries.yml for more info.
+  #- spokes/webfonts
+
+# This section is used by the contrib module, Component Libraries. It allows you
+# to reference .twig files in your sass/ directory by using the Twig namespace:
+# @spokes
+# See https://www.drupal.org/project/components for more information.
+components:
+  namespaces:
+    spokes:
+      - src/patterns/global
+      - src/patterns/components
+      - src/patterns/pages
+      - src/templates
+
+# This section lists the regions defined in the theme (our base theme) default
+# page.html.twig and maintenance-page.html.twig files. The name before
+# the semi-colon is the machine name of the region. The text after the
+# semi-colon is the region's description used on the admin/structure/block page.
+regions:
+  # The three header regions are stacked vertically.
+  header_top: Header Top
+  header_middle: Header Middle
+  header_bottom: Header Bottom
+  content: Content
+  sidebar_right: Sidebar Right
+  # The three footer regions are stacked horizontally, so that each region can
+  # have multiple blocks; the addendum is displayed afterwards.
+  footer_left: Footer Left
+  footer_middle: Footer Middle
+  footer_right: Footer Right
+  addendum: Addendum

@@ -77,6 +77,7 @@
 # ------------------------------------------------------------------
 /.editorconfig
 /.gitattributes
+/.ddev
 
 # The pantheon-systems/drupal-integrations project places a
 # .drush-lock-update file at the project root.
@@ -95,3 +96,7 @@
 
 # Ignore .env files as they are personal
 /.env
+
+# Ignore ddev stuff for now
+/config/.htaccess
+/config/config.yml
