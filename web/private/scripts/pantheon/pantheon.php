@@ -12,6 +12,11 @@ if (isset($_POST['environment'])) {
     $req = pantheon_curl('https://api.live.getpantheon.com/sites/self/settings', '{"allow_cacheserver":true}', 8443, 'PUT');
   }
 
+  // // Enable Search
+  // if ($settings['allow_solr'] != 1) {
+  //   $req = pantheon_curl('https://api.live.getpantheon.com/sites/self/settings', '{"allow_solr":true}', 8443, 'PUT');
+  // }
+  
   // Get bindings
   $req = pantheon_curl('https://api.live.getpantheon.com/sites/self/environments/self/bindings', NULL, 8443);
   $bindings = json_decode($req['body'], true);

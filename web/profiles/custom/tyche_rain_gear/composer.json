@@ -1,6 +1,28 @@
 {
-  "name": "mediacurrent/rain",
-  "description": "Rain install profile",
+  "name": "pantheon-se/tyche-demo",
+  "description": "Demo install profile",
   "type": "drupal-profile",
-  "license": "GPL-2.0-or-later"
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "mediacurrent/rain": "^3.20",
+    "mediacurrent/rain_features": "^3.0@beta",
+    "mediacurrent/rain_admin": "^2.0@beta",
+    "mediacurrent/rain_theme": "^4.0@beta",
+    "drupal/status_messages": "^4.2",
+    "drupal/smart_content_preview": "^1.0",
+    "pantheon-systems/edge-integrations-drupal-sdk": "^0.2.1",
+    "pantheon-systems/smart_content_cdn": "^0.2.2"
+  }
 }

@@ -25,10 +25,9 @@ dependencies:
 # Required modules
 # Installs Guardr recommended modules and configuration.
   # - guardr_core
-  - search
   - rain_core
-  - rain_layout
   - rain_media_bundle
+  - rain_layout
   - rain_styles
   - rain_event
   - rain_page
@@ -44,7 +43,7 @@ dependencies:
   - rain_slider
   - rain_text
   - rain_views
-  - rain_search
+  # - rain_search
   - rain_resource
   - rain_press_release
   - rain_article
@@ -60,11 +59,10 @@ dependencies:
   - rain_block_card
   - yaml_content
   - block_content
+  - status_messages
   - color
   - rain_admin_module
   - rain_admin_jumpnav
-  - status_messages
-  - edge-integrations-drupal-sdk
   - smart_content_cdn
 
 # List any themes that should be installed as part of the installation
@@ -72,4 +70,5 @@ dependencies:
 # Note that this will not set any theme as the default theme.
 themes:
   - spokes
+  - rain_theme
   - rain_admin
