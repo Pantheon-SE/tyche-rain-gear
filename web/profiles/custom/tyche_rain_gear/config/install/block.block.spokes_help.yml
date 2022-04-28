@@ -1,4 +1,3 @@
-uuid: 6f0bf054-1b86-49d7-8248-5d0e15f6dd4f
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,6 @@ dependencies:
     - help
   theme:
     - spokes
-_core:
-  default_config_hash: Dk_qssqcb3szwYJlicU_aAeuTx7saxdDfjdsAB48QSs
 id: spokes_help
 theme: spokes
 region: content

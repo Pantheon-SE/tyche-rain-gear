@@ -1,4 +1,3 @@
-uuid: 3ead29b6-13d0-4ecb-b1b7-f4f9d90227d9
 langcode: en
 status: true
 dependencies:
@@ -8,8 +7,6 @@ dependencies:
     - system
   theme:
     - spokes
-_core:
-  default_config_hash: Cy_SCPZ7emMghJuHLGD_u-tEXUNpehhfEWbBqIkpAII
 id: spokes_main_menu
 theme: spokes
 region: header_middle

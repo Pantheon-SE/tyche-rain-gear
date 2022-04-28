@@ -1,11 +1,8 @@
-uuid: 669c84ab-4b8f-4d1c-9eb4-d7e045aeaacd
 langcode: en
 status: true
 dependencies:
   theme:
     - spokes
-_core:
-  default_config_hash: JvGo4MkykRUM8W15-TKkM-5frrHrp5n2uPlmQdUjOmE
 id: spokes_local_actions
 theme: spokes
 region: content

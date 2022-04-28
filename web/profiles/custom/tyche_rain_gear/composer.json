@@ -1,9 +1,6 @@
 {
-  "name": "mediacurrent/drupal-project",
-  "description": "Tyche Profile Template",
+  "name": "mediacurrent/rain",
+  "description": "Rain install profile",
   "type": "drupal-profile",
-  "license": "GPL-2.0-or-later",
-  "require": {
-    "composer/installers": "~1.0"
-  }
+  "license": "GPL-2.0-or-later"
 }
