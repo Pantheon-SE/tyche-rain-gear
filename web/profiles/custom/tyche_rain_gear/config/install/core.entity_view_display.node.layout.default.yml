@@ -1,3 +1,4 @@
+uuid: 4b829b56-35d0-492a-be33-d84c4ff2e0d5
 langcode: en
 status: true
 dependencies:
@@ -75,6 +76,8 @@ third_party_settings:
         - layout_onecol
         - layout_twocol_section
         - layout_threecol_section
+_core:
+  default_config_hash: Uk2tc6KLG_oS9d_g1J0D2SQSSvjecomyNVBiqz-6l-A
 id: node.layout.default
 targetEntityType: node
 bundle: layout

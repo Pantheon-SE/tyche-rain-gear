@@ -1,3 +1,4 @@
+uuid: ba4f3e48-7fec-4807-bdc5-2a809a11e57f
 langcode: en
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - system
   theme:
     - spokes
+_core:
+  default_config_hash: EatGWFfrNQoxCErISJi9zG21FKdb5wkSK7v8nzg3LsE
 id: spokes_content
 theme: spokes
 region: content
