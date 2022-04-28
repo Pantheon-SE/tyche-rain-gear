@@ -1,6 +1,6 @@
 {
-    "name": "mediacurrent/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer",
+    "name": "pantheon-se/tyche-demo",
+    "description": "Demo template for Drupal 9",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
@@ -25,6 +25,7 @@
         "drupal/core-composer-scaffold": "^9.0",
         "drupal/core-recommended": "^9.0@stable",
         "drupal/guardr_core": "^2.0",
+        "drupal/smart_content_preview": "^1.0",
         "drush/drush": "^11.0",
         "mediacurrent/mis_profile": "^2.0",
         "mediacurrent/rain": "^3.20",
@@ -33,8 +34,10 @@
         "mediacurrent/rain_features": "^3.0@beta",
         "mediacurrent/rain_theme": "^4.0@beta",
         "oomphinc/composer-installers-extender": "^2.0",
-        "webflo/drupal-finder": "^1.0.0",
-        "pantheon-systems/drupal-integrations": "^9"
+        "pantheon-systems/drupal-integrations": "^9",
+        "pantheon-systems/edge-integrations-drupal-sdk": "^0.2.1",
+        "pantheon-systems/smart_content_cdn": "^0.2.2",
+        "webflo/drupal-finder": "^1.0.0"
     },
     "require-dev": {
         "drupal/core-dev": "^9.0",

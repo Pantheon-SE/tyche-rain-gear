@@ -2,5 +2,30 @@
 
 /**
  * @file
- * Install, update and uninstall hooks for the mcprofile install profile.
+ * Install methods for rain_demo profile.
  */
+
+/**
+ * Implements hook_install_tasks().
+ */
+function tyche_rain_gear_install_tasks(&$install_state) {
+  $tasks = [
+    'tyche_rain_gear_install_content' => [
+      'display_name' => t('Install default content'),
+      'type' => 'normal',
+    ],
+  ];
+
+  return $tasks;
+}
+
+/**
+ * Callback function to install default profile content.
+ *
+ * @see tyche_rain_gear_install_tasks()
+ */
+function tyche_rain_gear_install_content() {
+  // Load all of the demo content.
+  $loader = \Drupal::service('yaml_content.load_helper');
+  $loader->importProfile('tyche_rain_gear');
+}

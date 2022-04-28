@@ -68,5 +68,5 @@ dependencies:
 # profile installation.
 # Note that this will not set any theme as the default theme.
 themes:
-  - nimbus_theme
+  - spokes
   - rain_admin

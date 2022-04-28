@@ -9,9 +9,9 @@
 # the "drush cr" command or by simply visiting the Appearance page at
 # admin/appearance.
 
-name: Nimbus Theme
+name: Spokes Theme
 type: theme
-description: Minimalist theme based on Rain parent theme.
+description: Patternlab theme based on Rain parent theme.
 package: Other
 core: 8.x
 core_version_requirement: '^8 || ^9'
