@@ -15,11 +15,11 @@
 
   svg {
     fill: $color-white;
-    height: 4rem;
+    height: 10rem;
     width: auto;
 
     @include breakpoint($bp-sm) {
-      height: 130px;
+      height: 154px;
     }
   }
 }

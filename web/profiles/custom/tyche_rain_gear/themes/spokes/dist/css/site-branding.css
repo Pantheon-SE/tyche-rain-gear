@@ -10,11 +10,11 @@
       margin-right: 15px; } }
   .site-logo svg {
     fill: #ffffff;
-    height: 4rem;
+    height: 10rem;
     width: auto; }
     @media screen and (min-width: 768px) {
       .site-logo svg {
-        height: 130px; } }
+        height: 154px; } }
 
 .site-name a {
   color: #464646;

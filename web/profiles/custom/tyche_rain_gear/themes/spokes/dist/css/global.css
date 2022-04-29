@@ -35,7 +35,7 @@
 html {
   font-family: "Lato", "Arial", sans-serif;
   font-size: 100%;
-  line-height: 1.15;
+  line-height: 1.20;
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%; }
 
@@ -207,11 +207,11 @@ h6 {
   @media screen and (min-width: 768px) {
     .block-content--type--text p,
     .node__body p {
-      font-size: 1.2rem; } }
+      font-size: 1.1rem; } }
   @media screen and (min-width: 1200px) {
     .block-content--type--text p,
     .node__body p {
-      font-size: 1.5rem; } }
+      font-size: 1.3rem; } }
 
 .user-pass,
 .user-login-form {
