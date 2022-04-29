@@ -22,9 +22,11 @@
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.7.0",
+        "drupal/content_as_config": "^1.0",
         "drupal/core-composer-scaffold": "^9.0",
         "drupal/core-recommended": "^9.0@stable",
         "drupal/guardr_core": "^2.0",
+        "drupal/segmentio": "^1.0@alpha",
         "drupal/smart_content_preview": "^1.0",
         "drupal/status_messages": "^4.2",
         "drush/drush": "^11.0",

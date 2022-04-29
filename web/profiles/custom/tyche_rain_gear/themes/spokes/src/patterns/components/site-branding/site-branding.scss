@@ -6,11 +6,11 @@
 }
 
 .site-logo {
-  margin-right: 30px;
+  margin-right: 10px;
   width: auto;
 
   @include breakpoint($bp-md) {
-    margin-right: 45px;
+    margin-right: 15px;
   }
 
   svg {
@@ -19,7 +19,7 @@
     width: auto;
 
     @include breakpoint($bp-sm) {
-      height: 74px;
+      height: 130px;
     }
   }
 }

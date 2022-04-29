@@ -9,8 +9,7 @@
     "compress": "gulp compress",
     "lint": "gulp lint",
     "clean": "gulp clean",
-    "gulp": "gulp",
-    "generate": "yo mc-d8-theme:component"
+    "gulp": "gulp"
   },
   "babel": {
     "sourceType": "unambiguous",
@@ -49,5 +48,10 @@
     "stylelint": "^12.0.1",
     "stylelint-scss": "^3.13.0",
     "yo": "^3.1.1"
+  },
+  "dependencies": {
+    "browserslist": "^4.16.3",
+    "caniuse-lite": "^1.0.30001197",
+    "eslint": "^5.16.0"
   }
 }

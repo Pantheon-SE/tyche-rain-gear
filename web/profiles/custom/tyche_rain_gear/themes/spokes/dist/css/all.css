@@ -2263,18 +2263,18 @@ input[type='submit'] {
   align-items: center; }
 
 .site-logo {
-  margin-right: 30px;
+  margin-right: 10px;
   width: auto; }
   @media screen and (min-width: 1024px) {
     .site-logo {
-      margin-right: 45px; } }
+      margin-right: 15px; } }
   .site-logo svg {
     fill: #ffffff;
     height: 4rem;
     width: auto; }
     @media screen and (min-width: 768px) {
       .site-logo svg {
-        height: 74px; } }
+        height: 130px; } }
 
 .site-name a {
   color: #464646;
