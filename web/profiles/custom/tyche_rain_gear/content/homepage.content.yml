@@ -35,7 +35,7 @@
         - uri: "internal:/"
           title: "TycheBikes"
       field_title:
-        - value: "Bikes"
+        - value: "TycheBikes"
       field_media:
         - entity: media
           bundle: image
