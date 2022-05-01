@@ -59,7 +59,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "mod-bike.jpg"
+                filename: "news-hero2.jpg"
           alt: "Article 1"
   body:
     - format: "full_html"
@@ -227,7 +227,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "news-hero2.jpg"
+                filename: "mod-bike.jpg"
           alt: "Article 4"
   body:
     - format: "full_html"
