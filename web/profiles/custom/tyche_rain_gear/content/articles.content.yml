@@ -3,10 +3,34 @@
 # Taxonomy terms for this file.
 - entity: "taxonomy_term"
   vid: "tags"
-  name: "Tag 1"
+  name: "Commuting"
 - entity: "taxonomy_term"
   vid: "tags"
-  name: "Tag 2"
+  name: "Recreational"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Pro Riders"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Outdoors"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Winterizing"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Cold Weather Riding"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Maintenance"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Budget"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Batteries"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Modding"
 - entity: "taxonomy_term"
   vid: "authors"
   name: "John Smith"
@@ -35,7 +59,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "latest-news.jpg"
+                filename: "mod-bike.jpg"
           alt: "Article 1"
   body:
     - format: "full_html"
@@ -48,13 +72,13 @@
         args:
           - "taxonomy_term"
           - vid: "tags"
-            name: "Tag 1"
+            name: "Cold Weather Riding"
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
           - vid: "tags"
-            name: "Tag 2"
+            name: "Winterizing"
   field_authors:
     - "#process":
         callback: "reference"
@@ -102,13 +126,13 @@
         args:
           - "taxonomy_term"
           - vid: "tags"
-            name: "Tag 1"
+            name: "Batteries"
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
           - vid: "tags"
-            name: "Tag 2"
+            name: "Budget"
   field_authors:
     - "#process":
         callback: "reference"
@@ -156,13 +180,19 @@
         args:
           - "taxonomy_term"
           - vid: "tags"
-            name: "Tag 1"
+            name: "Pro Riders"
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
           - vid: "tags"
-            name: "Tag 2"
+            name: "Commuting"
+    - "#process":
+        callback: "reference"
+        args:
+          - "taxonomy_term"
+          - vid: "tags"
+            name: "Outdoors"
   field_authors:
     - "#process":
         callback: "reference"
@@ -210,13 +240,13 @@
         args:
           - "taxonomy_term"
           - vid: "tags"
-            name: "Tag 1"
+            name: "Modding"
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
           - vid: "tags"
-            name: "Tag 2"
+            name: "Recreational"
   field_authors:
     - "#process":
         callback: "reference"

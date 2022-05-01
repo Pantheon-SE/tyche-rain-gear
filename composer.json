@@ -22,13 +22,18 @@
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.7.0",
-        "drupal/content_as_config": "^1.0",
+        "drupal/better_normalizers": "^1.0@beta",
+        "drupal/config_filter": "^2.3",
+        "drupal/config_ignore": "^2.3",
         "drupal/core-composer-scaffold": "^9.0",
         "drupal/core-recommended": "^9.0@stable",
         "drupal/guardr_core": "^2.0",
+        "drupal/jsonapi_include_lb": "1.0.x-dev@dev",
         "drupal/segmentio": "^1.0@alpha",
         "drupal/smart_content_preview": "^1.0",
         "drupal/status_messages": "^4.2",
+        "drupal/structure_sync": "^2.0",
+        "drupal/yaml_content": "^1.0@alpha",
         "drush/drush": "^11.0",
         "mediacurrent/rain": "^3.20",
         "mediacurrent/rain_admin": "^2.0@beta",
@@ -144,6 +149,11 @@
         "patches": {
             "drupal/core": {
                 "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2021-11-18/1356276-675.patch"
+            },
+            "drupal/default_content_deploy": {
+                "3269449 - AssertionError when trying to export content of entity type with with reference": "https://www.drupal.org/files/issues/2022-03-30/error_export_with_reference-3269449-5.patch"
+            },
+            "drupal/default_content": {
             }
         }
     }

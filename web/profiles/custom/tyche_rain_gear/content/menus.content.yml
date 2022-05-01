@@ -22,13 +22,6 @@
   link:
     uri: "internal:/layout/products"
 - entity: "menu_link_content"
-  title: "Blog"
-  menu_name: "main"
-  weight: 3
-  enabled: 1
-  link:
-    uri: "internal:/layout/blog"
-- entity: "menu_link_content"
   title: "About"
   menu_name: "main"
   weight: 4

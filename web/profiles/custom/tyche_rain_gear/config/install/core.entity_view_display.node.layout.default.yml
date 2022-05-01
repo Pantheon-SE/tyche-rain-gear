@@ -32,7 +32,7 @@ third_party_settings:
             region: content
             configuration:
               id: 'block_content:20adb562-cefc-40b2-80bc-75797db2dec0'
-              label: 'Hero: Rain'
+              label: 'Hero: Tyche'
               provider: block_content
               label_display: ''
               status: true
@@ -76,8 +76,6 @@ third_party_settings:
         - layout_onecol
         - layout_twocol_section
         - layout_threecol_section
-_core:
-  default_config_hash: Uk2tc6KLG_oS9d_g1J0D2SQSSvjecomyNVBiqz-6l-A
 id: node.layout.default
 targetEntityType: node
 bundle: layout

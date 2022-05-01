@@ -24,7 +24,7 @@
                 filename: "image-hero-partner.jpg"
           alt: "Partner Hero"
   field_summary:
-    - value: Mediacurrent is a full-service digital agency that implements world class open source software development, strategy and design to achieve defined goals for enterprise organizations seeking a better ROI.
+    - value: "Think global, ride local."
 - entity: block_content
   id: 9
   uuid: b11630f2-82de-4308-b2fb-0048d90edacd
@@ -32,11 +32,11 @@
   field_short_title:
     - value: "Est. 2007"
   field_title:
-    - value: "Why Partner With Us?"
+    - value: "Why Buy From Us?"
   field_subhead:
-    - value: "We Value Our Relationships"
+    - value: "We Value Our Impact"
   field_link:
-    - uri: "https://www.mediacurrent.com/contact-us/"
+    - uri: "/contact-us/"
       title: "Get In Touch"
   field_card_layout:
     - value: "wide"
@@ -51,26 +51,26 @@
             args:
               - "image"
               - type: "module"
-                filename: "image-card-wide-partner-1.png"
+                filename: "derailer.jpg"
           alt: "Card 1"
   field_summary:
     value: |
-      We see ourselves as an extended part of your team. As your digital partner, we are your single source for development, design, strategy, and training. We also offer ongoing Drupal support and consulting. The quality of our work and guidance allows your organization to plan and grow, while saving significant money over time.
+      We don't just sell bikes. We provide training, ethical pricing, and have a unique corporate mission.
 - entity: block_content
   id: 10
   uuid: 1065c603-fbd5-4a8e-8a4d-004188b16000
   type: card_list
   field_title:
-    - value: How We Add Value
+    - value: "Guiding values"
   field_card:
     - entity: paragraph
       type: card
       field_title:
-        - value: "Digital Strategy"
+        - value: "Sustainability"
       field_media:
         - entity: media
           bundle: image
-          name: "Digital Strategy"
+          name: "Sustainability"
           status: 1
           field_image:
             - "#process":
@@ -81,18 +81,18 @@
                     filename: "icon-strategy.gif"
               alt: "Digital Strategy"
       field_short_title:
-        - value: "Mediacurrent"
+        - value: ""
       field_summary:
         value: |
-          We use data to engage the right audience, driving measurable interaction
+          We provide a sustainable alternative to driving.
     - entity: paragraph
       type: card
       field_title:
-        - value: "Design/UX"
+        - value: "Customization"
       field_media:
         - entity: media
           bundle: image
-          name: "Design/UX"
+          name: "Customization"
           status: 1
           field_image:
             - "#process":
@@ -101,20 +101,20 @@
                   - "image"
                   - type: "module"
                     filename: "icon-design.gif"
-              alt: "Design/UX"
+              alt: "Customization"
       field_short_title:
-        - value: "Mediacurrent"
+        - value: ""
       field_summary:
         value: |
-          Our goal is to unite aesthetic elegance with utility and accessibility
+          Our goal is to unite aesthetic elegance with utility and accessibility.
     - entity: paragraph
       type: card
       field_title:
-        - value: "Development"
+        - value: "Tools & Support"
       field_media:
         - entity: media
           bundle: image
-          name: "Development"
+          name: "Tools & Support"
           status: 1
           field_image:
             - "#process":
@@ -123,149 +123,31 @@
                   - "image"
                   - type: "module"
                     filename: "icon-development.gif"
-              alt: "Development"
+              alt: "Tools & Support"
       field_short_title:
-        - value: "Mediacurrent"
+        - value: ""
       field_summary:
         value: |
-          Our Agile team is devoted to maintainability, accessibility and security
-- entity: block_content
-  id: 11
-  uuid: af98cdea-c65c-4711-b913-0015c8154a3e
-  type: quote
-  field_author:
-    - value: "Firstname Lastname"
-  field_quote:
-    - value: "Opportunity for personalization around quotes based on industry lorem ipsum example."
-  field_job_title:
-    - value: "Professional title"
-  field_thumb:
-    - "#process":
-        callback: "file"
-        args:
-          - "image"
-          - type: "module"
-            filename: "image-quote.png"
-      alt: "Quote Thumb"        
-- entity: block_content
-  id: 12
-  uuid: 833d4a2b-2dd5-4735-9ac6-76ed2df8e961
-  type: card_list
-  field_title:
-    - value: How We Empower Your Team
-  field_card:
-    - entity: paragraph
-      type: card
-      field_title:
-        - value: "Pain Points"
-      field_media:
-        - entity: media
-          bundle: image
-          name: "Pain Points"
-          status: 1
-          field_image:
-            - "#process":
-                callback: "file"
-                args:
-                  - "image"
-                  - type: "module"
-                    filename: "icon-challenges.gif"
-              alt: "Pain Points"
-      field_short_title:
-        - value: "Analyze"
-      field_summary:
-        value: |
-          We create solutions after assessing your organization from all viewpoints
-    - entity: paragraph
-      type: card
-      field_title:
-        - value: "Strategic Plan"
-      field_media:
-        - entity: media
-          bundle: image
-          name: "Strategic Plan"
-          status: 1
-          field_image:
-            - "#process":
-                callback: "file"
-                args:
-                  - "image"
-                  - type: "module"
-                    filename: "icon-playbook.gif"
-              alt: "Strategic Plan"
-      field_short_title:
-        - value: "Implement"
-      field_summary:
-        value: |
-          Aligning your digital ecosystem with brand, audience and business goals
-    - entity: paragraph
-      type: card
-      field_title:
-        - value: "Optimize ROI"
-      field_media:
-        - entity: media
-          bundle: image
-          name: "Optimize ROI"
-          status: 1
-          field_image:
-            - "#process":
-                callback: "file"
-                args:
-                  - "image"
-                  - type: "module"
-                    filename: "icon-budget.gif"
-              alt: "Optimize ROI"
-      field_short_title:
-        - value: "Measure"
-      field_summary:
-        - value: Metrics tied to data and business value allows us to create a well-rounded ROI
-- entity: block_content
-  id: 13
-  uuid: b377f974-2142-45d0-a38b-48ffc71e2849
-  type: card
-  field_short_title:
-    - value: "Our Approach"
-  field_title:
-    - value: "Data-Driven Website Development"
-  field_subhead:
-    - value: "Creating Intuitive User Journeys"
-  field_card_layout:
-    - value: "wide"
-  field_summary:
-    - value: Every functional component and design element within our website builds are intentional and strategically placed. Research and data drives all decisions, whether from our joint discovery process or our ongoing attention to the most current web standards.
-  field_media:
-    - entity: media
-      bundle: image
-      name: "Card 2"
-      status: 1
-      field_image:
-        - "#process":
-            callback: "file"
-            args:
-              - "image"
-              - type: "module"
-                filename: "image-card-wide-partner-2.jpg"
-          alt: "Card 2"
+          Our engineers provide support and training so that you can maintain your bike in top shape.      
 - entity: block_content
   id: 14
   uuid: 05d54141-d8ec-4f24-baae-21507b831b58
   type: map
   field_short_title:
-    - value: "Headquarters"
+    - value: "Global Reach, Local Ride"
   field_title:
-    - value: "In Georgia, Will Travel"
+    - value: "Global Reach, Local Ride"
   body:
     - format: "full_html"
       summary: ""
       value: |
-        <p>3180 North Point Parkway<br />
+        <p>1234 Fanciful Parkway<br />
             Building 200, Suite 208<br />
-            Alpharetta, Georgia 30005</p>
-        <p>Phone: 678.580.1690<br />
-            Toll Free: 866.507.0005<br />
-            Fax: 770.360.5776</p>
+            Aalborg, Denmark</p>
+        <p>Phone: 555.551.1690<br />
+            Toll Free: 555.251.0005</p>
   field_link:
-    - uri: "https://www.mediacurrent.com/contact-us/"
+    - uri: "/contact-us/"
       title: "Contact Us"
   field_location:
     - country_code: 'US'
@@ -274,166 +156,6 @@
       postal_code: "30005"
       address_line1: "North Point Parkway"
       address_line2: ""
-- entity: block_content
-  id: 15
-  uuid: 4d8532ae-343c-4667-937b-6df7113aa247
-  type: breaker
-  field_short_title:
-    - value: "We Are Mediacurrent"
-  field_title:
-    - value: "Collaboration, Contribution & Comradery"
-  field_link:
-    - uri: "https://www.mediacurrent.com/who-we-are/team/"
-      title: "Meet Our Team"
-  field_media:
-    - entity: media
-      bundle: image
-      name: "Partner Hero 2"
-      status: 1
-      field_image:
-        - "#process":
-            callback: "file"
-            args:
-              - "image"
-              - type: "module"
-                filename: "image-card-partner.png"
-          alt: "Partner Hero 2"
-  field_summary:
-    - value: Although we are a distributed company spanning the U.S., collaboration is baked into our process and personalities- a trait that has attracted top digital talent. We set aside time to contribute code, thought leadership, and resources to open source. Our team organizes, participates, and sponsors Drupal events locally and across the nation. We are passionate about what we do and offering the most value to our clients.
-- entity: block_content
-  id: 16
-  uuid: 2f0dd230-a2d4-4f62-8dac-208f400b4021
-  type: gallery_carousel
-  field_title:
-    - value: "Current Client Partnerships"
-  field_subhead:
-    - value: "We are only as good as our deliverables, so we take pride in our work and don't mind showing it off. Here are several recent projects from current client partners."
-  field_gallery_item:
-    - entity: paragraph
-      type: gallery_item
-      field_media:
-        - entity: media
-          bundle: image
-          name: "Carousel Hero 1"
-          status: 1
-          field_image:
-            - "#process":
-                callback: "file"
-                args:
-                  - "image"
-                  - type: "module"
-                    filename: "image-slide-guardian-large.png"
-              alt: "Carousel Hero 1"
-      field_thumb:
-        - "#process":
-            callback: "file"
-            args:
-              - "image"
-              - type: "module"
-                filename: "image-slide-guardian-tn.png"
-          alt: "Carousel Thumb 1"
-      field_summary:
-        - value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, turpis at luctus finibus, erat lectus convallis velit, at sodales purus lacus quis magna. Curabitur imperdiet sapien libero, fringilla ullamcorper nibh ullamcorper vitae. Proin sed luctus augue.
-    - entity: paragraph
-      type: gallery_item
-      field_media:
-        - entity: media
-          bundle: image
-          name: "Carousel Hero 2"
-          status: 1
-          field_image:
-            - "#process":
-                callback: "file"
-                args:
-                  - "image"
-                  - type: "module"
-                    filename: "image-slide-care-action-large.png"
-              alt: "Carousel Hero 2"
-      field_thumb:
-        - "#process":
-            callback: "file"
-            args:
-              - "image"
-              - type: "module"
-                filename: "image-slide-care-action-tn.png"
-          alt: "Carousel Thumb 2"
-      field_summary:
-        - value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, turpis at luctus finibus, erat lectus convallis velit, at sodales purus lacus quis magna. Curabitur imperdiet sapien libero, fringilla ullamcorper nibh ullamcorper vitae. Proin sed luctus augue.
-    - entity: paragraph
-      type: gallery_item
-      field_media:
-        - entity: media
-          bundle: image
-          name: "Carousel Hero 3"
-          status: 1
-          field_image:
-            - "#process":
-                callback: "file"
-                args:
-                  - "image"
-                  - type: "module"
-                    filename: "image-slide-ny-senate-large.png"
-              alt: "Carousel Hero 3"
-      field_thumb:
-        - "#process":
-            callback: "file"
-            args:
-              - "image"
-              - type: "module"
-                filename: "image-slide-ny-senate-tn.png"
-          alt: "Carousel Thumb 3"
-      field_summary:
-        - value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, turpis at luctus finibus, erat lectus convallis velit, at sodales purus lacus quis magna. Curabitur imperdiet sapien libero, fringilla ullamcorper nibh ullamcorper vitae. Proin sed luctus augue.
-    - entity: paragraph
-      type: gallery_item
-      field_media:
-        - entity: media
-          bundle: image
-          name: "Carousel Hero 4"
-          status: 1
-          field_image:
-            - "#process":
-                callback: "file"
-                args:
-                  - "image"
-                  - type: "module"
-                    filename: "image-slide-rinnai-large.png"
-              alt: "Carousel Hero 4"
-      field_thumb:
-        - "#process":
-            callback: "file"
-            args:
-              - "image"
-              - type: "module"
-                filename: "image-slide-rinnai-tn.png"
-          alt: "Carousel Thumb 4"
-      field_summary:
-        - value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, turpis at luctus finibus, erat lectus convallis velit, at sodales purus lacus quis magna. Curabitur imperdiet sapien libero, fringilla ullamcorper nibh ullamcorper vitae. Proin sed luctus augue.
-    - entity: paragraph
-      type: gallery_item
-      field_media:
-        - entity: media
-          bundle: image
-          name: "Carousel Hero 5"
-          status: 1
-          field_image:
-            - "#process":
-                callback: "file"
-                args:
-                  - "image"
-                  - type: "module"
-                    filename: "image-slide-travelport-large.png"
-              alt: "Carousel Hero 5"
-      field_thumb:
-        - "#process":
-            callback: "file"
-            args:
-              - "image"
-              - type: "module"
-                filename: "image-slide-travelport-tn.png"
-          alt: "Carousel Thumb 5"
-      field_summary:
-        - value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, turpis at luctus finibus, erat lectus convallis velit, at sodales purus lacus quis magna. Curabitur imperdiet sapien libero, fringilla ullamcorper nibh ullamcorper vitae. Proin sed luctus augue.
 
 # Nodes for the Page bundle.
 - entity: "node"
@@ -484,39 +206,6 @@
               weight: 2
             - region: content
               configuration:
-                id: "block_content:af98cdea-c65c-4711-b913-0015c8154a3e"
-                label: "Firstname Lastname"
-                provider: block_content
-                label_display: '0'
-                status: 1
-                view_mode: "full"
-                context_mapping: {  }
-              additional: {  }
-              weight: 3
-            - region: content
-              configuration:
-                id: "block_content:833d4a2b-2dd5-4735-9ac6-76ed2df8e961"
-                label: "How We Empower Your Team"
-                provider: block_content
-                label_display: '0'
-                status: 1
-                view_mode: "full"
-                context_mapping: {  }
-              additional: {  }
-              weight: 4
-            - region: content
-              configuration:
-                id: "block_content:b377f974-2142-45d0-a38b-48ffc71e2849"
-                label: "Data-Driven Website Development"
-                provider: block_content
-                label_display: '0'
-                status: 1
-                view_mode: "full"
-                context_mapping: {  }
-              additional: {  }
-              weight: 5
-            - region: content
-              configuration:
                 id: "block_content:05d54141-d8ec-4f24-baae-21507b831b58"
                 label: "In Georgia, Will Travel"
                 provider: block_content
@@ -525,29 +214,7 @@
                 view_mode: "full"
                 context_mapping: {  }
               additional: {  }
-              weight: 6
-            - region: content
-              configuration:
-                id: "block_content:4d8532ae-343c-4667-937b-6df7113aa247"
-                label: "Collaboration, Contribution & Comradery"
-                provider: block_content
-                label_display: '0'
-                status: 1
-                view_mode: "full"
-                context_mapping: {  }
-              additional: {  }
-              weight: 7
-            - region: content
-              configuration:
-                id: "block_content:2f0dd230-a2d4-4f62-8dac-208f400b4021"
-                label: "Current Client Partnerships"
-                provider: block_content
-                label_display: '0'
-                status: 1
-                view_mode: "full"
-                context_mapping: {  }
-              additional: {  }
-              weight: 8
+              weight: 3
           third_party_settings: {  }
   field_summary:
     - value: Mediacurrent is a full-service digital agency that implements world class open source software development, strategy and design to achieve defined goals for enterprise organizations seeking a better ROI.

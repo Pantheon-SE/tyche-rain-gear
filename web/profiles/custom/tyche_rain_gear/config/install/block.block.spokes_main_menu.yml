@@ -8,8 +8,6 @@ dependencies:
     - system
   theme:
     - spokes
-_core:
-  default_config_hash: Cy_SCPZ7emMghJuHLGD_u-tEXUNpehhfEWbBqIkpAII
 id: spokes_main_menu
 theme: spokes
 region: header_middle

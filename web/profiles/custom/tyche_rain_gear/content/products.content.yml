@@ -3,7 +3,7 @@
 # Nodes for the Product bundle.
 - entity: "node"
   type: "product"
-  title: "Donec laoreet luctus"
+  title: "Buy our bikes"
   status: 1
   uid: 1
   nid: 23
@@ -20,7 +20,7 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'products-thumb.jpg'
+                filename: race.png'
           alt: 'product1'
   field_product_media:
     - entity: media
@@ -33,7 +33,7 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'products-thumb.jpg'
+                filename: 'RadRunner.jpg'
           alt: 'product1'
     - entity: media
       bundle: image
@@ -45,7 +45,7 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'products-thumb.jpg'
+                filename: 'bike-seat.jpg'
           alt: 'product1b'
     - entity: media
       bundle: image
@@ -57,7 +57,7 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'products-thumb.jpg'
+                filename: 'bike-pedal.jpg'
           alt: 'product1c'
   field_product_desc:
     - format: "full_html"

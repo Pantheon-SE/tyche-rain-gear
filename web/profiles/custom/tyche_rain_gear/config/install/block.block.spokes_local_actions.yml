@@ -4,8 +4,6 @@ status: true
 dependencies:
   theme:
     - spokes
-_core:
-  default_config_hash: JvGo4MkykRUM8W15-TKkM-5frrHrp5n2uPlmQdUjOmE
 id: spokes_local_actions
 theme: spokes
 region: content

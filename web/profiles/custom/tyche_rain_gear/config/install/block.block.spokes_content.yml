@@ -6,8 +6,6 @@ dependencies:
     - system
   theme:
     - spokes
-_core:
-  default_config_hash: EatGWFfrNQoxCErISJi9zG21FKdb5wkSK7v8nzg3LsE
 id: spokes_content
 theme: spokes
 region: content
