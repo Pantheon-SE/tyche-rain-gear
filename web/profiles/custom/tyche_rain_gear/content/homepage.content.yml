@@ -3,16 +3,16 @@
 # Homepage node (alternate).
 - entity: "node"
   type: "landing"
-  title: "Homepage (alternate)"
+  title: "Homepage"
   status: 1
   uid: 1
   nid: 100
   field_summary:
-    - value: A site about bikes.
+    - value: Steering towards a better world.
   field_thumbnail:
     - entity: media
       bundle: image
-      name: "Bikes"
+      name: "tycheBikes"
       status: 1
       field_image:
         - "#process":
@@ -30,7 +30,7 @@
       field_subhead:
         - value: Thing global, ride local.
       field_summary:
-        - value: Sustainability, integrity, and good looks.
+        - value: Steering towards a better world.
       field_link:
         - uri: "internal:/"
           title: "TycheBikes"
@@ -226,7 +226,7 @@
 # Homepage (layout builder).
 - entity: "node"
   type: "layout"
-  title: "Introducing TycheBikes"
+  title: "TycheBikes"
   status: 1
   uid: 1
   nid: 101
@@ -294,7 +294,7 @@
               weight: 4
           third_party_settings: {  }
   field_summary:
-    - value: TycheBikes is steering into a better world.
+    - value: TycheBikes is steering towards a better world.
   field_thumbnail:
     - entity: media
       bundle: image

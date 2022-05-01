@@ -94,7 +94,7 @@
   uuid: f46ad5d8-5a10-4082-a15e-234c2e2454a3
   type: hero
   field_title:
-    - value: "Events"
+    - value: "tychEvents"
   field_media:
     - entity: media
       bundle: image
@@ -266,7 +266,7 @@
   uuid: 2a0742ea-7916-45b0-bd9a-f6c0674bbf6a
   type: hero
   field_title:
-    - value: "Products"
+    - value: "Shop eBikes"
   field_media:
     - entity: media
       bundle: image
