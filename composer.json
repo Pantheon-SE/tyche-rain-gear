@@ -36,6 +36,7 @@
         "drupal/smart_content_utm": "^1.0",
         "drupal/status_messages": "^4.2",
         "drupal/structure_sync": "^2.0",
+        "drupal/viewsreference": "^1.7",
         "drupal/yaml_content": "^1.0@alpha",
         "drush/drush": "^11.0",
         "mediacurrent/rain": "^3.20",
