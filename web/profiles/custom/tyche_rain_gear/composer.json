@@ -23,6 +23,16 @@
     "drupal/status_messages": "^4.2",
     "drupal/smart_content_preview": "^1.0",
     "pantheon-systems/edge-integrations-drupal-sdk": "^0.2.1",
+    "pantheon-systems/smart_content_cdn": "^0.2.2",
+    "drupal/viewsreference": "^1.7",
+    "drupal/layout_builder_browser_block_library": "1.0.x-dev@dev",
+    "drupal/segmentio": "^1.0@alpha",
+    "drupal/smart_content_datalayer": "^3.0@RC",
+    "drupal/smart_content_preview": "^1.0",
+    "drupal/smart_content_utm": "^1.0",
+    "drupal/yaml_content": "^1.0@alpha",
+    "pantheon-systems/drupal-integrations": "^9",
+    "pantheon-systems/edge-integrations-drupal-sdk": "^0.2.1",
     "pantheon-systems/smart_content_cdn": "^0.2.2"
   }
 }

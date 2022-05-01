@@ -63,7 +63,7 @@ dependencies:
   - color
   - rain_admin_module
   - rain_admin_jumpnav
-  - segmentio
+  # - segmentio
   - layout_builder_browser_block_library
   - smart_content
   - smart_content_utm
