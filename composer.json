@@ -29,8 +29,11 @@
         "drupal/core-recommended": "^9.0@stable",
         "drupal/guardr_core": "^2.0",
         "drupal/jsonapi_include_lb": "1.0.x-dev@dev",
+        "drupal/layout_builder_browser_block_library": "1.0.x-dev@dev",
         "drupal/segmentio": "^1.0@alpha",
+        "drupal/smart_content_datalayer": "^3.0@RC",
         "drupal/smart_content_preview": "^1.0",
+        "drupal/smart_content_utm": "^1.0",
         "drupal/status_messages": "^4.2",
         "drupal/structure_sync": "^2.0",
         "drupal/yaml_content": "^1.0@alpha",
@@ -153,7 +156,8 @@
             "drupal/default_content_deploy": {
                 "3269449 - AssertionError when trying to export content of entity type with with reference": "https://www.drupal.org/files/issues/2022-03-30/error_export_with_reference-3269449-5.patch"
             },
-            "drupal/default_content": {
+            "drupal/smart_content": {
+                "3210720 - AJAX Error on Segment Form": "https://www.drupal.org/files/issues/2022-03-18/smart_content-3210720-10.patch"
             }
         }
     }

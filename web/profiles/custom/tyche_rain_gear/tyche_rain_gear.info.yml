@@ -63,6 +63,14 @@ dependencies:
   - color
   - rain_admin_module
   - rain_admin_jumpnav
+  - segmentio
+  - layout_builder_browser_block_library
+  - smart_content
+  - smart_content_utm
+  - smart_content_datalayer
+  - smart_content_block
+  - smart_content_browser
+  - smart_content_preview
   - smart_content_cdn
 
 # List any themes that should be installed as part of the installation
