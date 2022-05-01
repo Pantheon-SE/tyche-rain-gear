@@ -20,7 +20,7 @@
             args:
               - 'image'
               - type: 'module'
-                filename: race.png'
+                filename: 'race.png'
           alt: 'product1'
   field_product_media:
     - entity: media
@@ -92,7 +92,7 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'products-thumb.jpg'
+                filename: 'RadRunner.jpg'
           alt: 'product2'
   field_product_media:
     - entity: media
@@ -105,7 +105,7 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'products-thumb.jpg'
+                filename: 'bike-seat.jpg'
           alt: 'product2'
     - entity: media
       bundle: image
@@ -117,20 +117,8 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'products-thumb.jpg'
+                filename: 'bike-pedal.jpg'
           alt: 'product2b'
-    - entity: media
-      bundle: image
-      name: 'Product 2c'
-      status: 1
-      field_image:
-        - '#process':
-            callback: 'file'
-            args:
-              - 'image'
-              - type: 'module'
-                filename: 'products-thumb.jpg'
-          alt: 'product2c'
   field_product_desc:
     - format: "full_html"
       summary: ''
@@ -165,7 +153,7 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'products-thumb.jpg'
+                filename: 'RadRunner.jpg'
           alt: 'product3'
   field_product_media:
     - entity: media
@@ -178,7 +166,7 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'products-thumb.jpg'
+                filename: 'bike-seat.jpg'
           alt: 'product3'
     - entity: media
       bundle: image
@@ -190,20 +178,8 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'products-thumb.jpg'
+                filename: 'bike-pedal.jpg'
           alt: 'product3b'
-    - entity: media
-      bundle: image
-      name: 'Product 3c'
-      status: 1
-      field_image:
-        - '#process':
-            callback: 'file'
-            args:
-              - 'image'
-              - type: 'module'
-                filename: 'products-thumb.jpg'
-          alt: 'product3c'
   field_product_desc:
     - format: "full_html"
       summary: ''

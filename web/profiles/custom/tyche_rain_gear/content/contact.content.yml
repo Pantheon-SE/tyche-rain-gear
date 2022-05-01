@@ -9,7 +9,7 @@
   field_short_title:
     - value: "Partner with us"
   field_title:
-    - value: "Mediacurrent"
+    - value: "Tyche Dealerships"
   field_media:
     - entity: media
       bundle: image
@@ -36,7 +36,7 @@
   field_subhead:
     - value: "We Value Our Impact"
   field_link:
-    - uri: "/contact-us/"
+    - uri: "internal:/contact-us"
       title: "Get In Touch"
   field_card_layout:
     - value: "wide"
@@ -147,7 +147,7 @@
         <p>Phone: 555.551.1690<br />
             Toll Free: 555.251.0005</p>
   field_link:
-    - uri: "/contact-us/"
+    - uri: "internal:/contact-us"
       title: "Contact Us"
   field_location:
     - country_code: 'US'
@@ -174,7 +174,7 @@
             - region: content
               configuration:
                 id: "block_content:e22de22d-9b32-4cde-804f-78249ff9af1b"
-                label: "Mediacurrent"
+                label: "Tyche Partner"
                 provider: block_content
                 label_display: '0'
                 status: 1
@@ -185,7 +185,7 @@
             - region: content
               configuration:
                 id: "block_content:b11630f2-82de-4308-b2fb-0048d90edacd"
-                label: "Why Partner With Us?"
+                label: "Why Buy Tyche?"
                 provider: block_content
                 label_display: '0'
                 status: 1
@@ -207,7 +207,7 @@
             - region: content
               configuration:
                 id: "block_content:05d54141-d8ec-4f24-baae-21507b831b58"
-                label: "In Georgia, Will Travel"
+                label: "Think global, ride local."
                 provider: block_content
                 label_display: '0'
                 status: 1
@@ -217,7 +217,7 @@
               weight: 3
           third_party_settings: {  }
   field_summary:
-    - value: Mediacurrent is a full-service digital agency that implements world class open source software development, strategy and design to achieve defined goals for enterprise organizations seeking a better ROI.
+    - value: Fortune favours the bold.
   field_thumbnail:
     - entity: media
       bundle: image

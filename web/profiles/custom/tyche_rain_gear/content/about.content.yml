@@ -81,7 +81,7 @@
   field_subhead:
     - value: "What we stand for."
   field_link:
-    - uri: "internal:/page/partner-us"
+    - uri: "internal:/partner-us"
       title: "Retail partners"
   field_card_layout:
     - value: "wide"
@@ -96,7 +96,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "image-card-wide-about-2.jpg"
+                filename: "bike-battery.jpg"
           alt: "Card 2"
   field_summary:
     - value: "Join our team"

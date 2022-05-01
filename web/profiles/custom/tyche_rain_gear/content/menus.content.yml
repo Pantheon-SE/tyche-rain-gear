@@ -6,35 +6,35 @@
   weight: 0
   enabled: 1
   link:
-    uri: "internal:/layout/news"
+    uri: "internal:/news"
 - entity: "menu_link_content"
   title: "Events"
   menu_name: "main"
   weight: 1
   enabled: 1
   link:
-    uri: "internal:/layout/events"
+    uri: "internal:/events"
 - entity: "menu_link_content"
   title: "Products"
   menu_name: "main"
   weight: 2
   enabled: 1
   link:
-    uri: "internal:/layout/products"
+    uri: "internal:/products"
 - entity: "menu_link_content"
   title: "About"
   menu_name: "main"
   weight: 4
   enabled: 1
   link:
-    uri: "internal:/layout/about"
+    uri: "internal:/about"
 - entity: "menu_link_content"
   title: "Contact"
   menu_name: "main"
   weight: 6
   enabled: 1
   link:
-    uri: "internal:/layout/contact"
+    uri: "internal:/contact"
 
 # Footer Links
 - entity: "menu_link_content"
@@ -43,21 +43,21 @@
   weight: 0
   enabled: 1
   link:
-    uri: "internal:/page/privacy-policy"
+    uri: "internal:/privacy-policy"
 - entity: "menu_link_content"
   title: "Terms of Use"
   menu_name: "footer"
   weight: 1
   enabled: 1
   link:
-    uri: "internal:/page/terms-use"
+    uri: "internal:/terms-use"
 - entity: "menu_link_content"
   title: "Contact Us"
   menu_name: "footer"
   weight: 2
   enabled: 1
   link:
-    uri: "internal:/form/contact-us"
+    uri: "internal:/contact-us"
 
 # Social Media, shown in the footer.
 - entity: "menu_link_content"

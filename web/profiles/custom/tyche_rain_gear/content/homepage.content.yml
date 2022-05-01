@@ -73,14 +73,14 @@
       field_summary:
         - value: Our expertise, accompanied by our dedication to consumer protection and right to repair drives us to create robust modular components that simplify service and boost efficiency -- we empower customers to tweak and mod our bikes without voiding your warranty.
       field_link:
-        - uri: "internal:/page/partner-us"
+        - uri: "internal:/partner-us"
           title: "Repair portal"
     - entity: block_content
       id: 19
       uuid: dd12f627-2814-44c7-b131-81d5bc6b504e
       type: card_list
       field_link:
-        - uri: "internal:/page/about-rain"
+        - uri: "internal:/about-rain"
           title: "About"
       field_title:
         - value: "Flexibility"
@@ -240,7 +240,7 @@
             - region: content
               configuration:
                 id: "block_content:20adb562-cefc-40b2-80bc-75797db2dec0"
-                label: "Rain"
+                label: "TycheBikes"
                 provider: block_content
                 label_display: '0'
                 status: 1
@@ -262,7 +262,7 @@
             - region: content
               configuration:
                 id: "block_content:dd12f627-2814-44c7-b131-81d5bc6b504e"
-                label: "RAIN = Better Websites"
+                label: "Flexibility"
                 provider: block_content
                 label_display: '0'
                 status: 1
@@ -273,7 +273,7 @@
             - region: content
               configuration:
                 id: "block_content:bb1c9d8f-1a2f-410f-b7c0-975627142e4e"
-                label: "Peggy Maher"
+                label: "Mike"
                 provider: block_content
                 label_display: '0'
                 status: 1
@@ -284,7 +284,7 @@
             - region: content
               configuration:
                 id: "block_content:21afcdfb-888f-491e-9d82-a27ff6c54a32"
-                label: "RAIN Can Help"
+                label: "Tykes 4 Tykes Events"
                 provider: block_content
                 label_display: '0'
                 status: 1
