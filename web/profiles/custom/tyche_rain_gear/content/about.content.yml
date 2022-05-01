@@ -77,11 +77,11 @@
   field_short_title:
     - value: "Biking for everyone"
   field_title:
-    - value: "Sustainable fitness for all ages!"
+    - value: "Sustainable fitness for all ages."
   field_subhead:
     - value: "What we stand for."
   field_link:
-    - uri: "internal:/partner-us"
+    - uri: "internal:/layout/partner-us"
       title: "Retail partners"
   field_card_layout:
     - value: "wide"
@@ -152,7 +152,7 @@
             - region: content
               configuration:
                 id: "block_content:65d9cec0-32b7-4eb9-9069-b662f066ba3c"
-                label: "Ready, Install, Go."
+                label: "Ready, Ride, Go."
                 provider: block_content
                 label_display: '0'
                 status: 1
@@ -163,7 +163,7 @@
             - region: content
               configuration:
                 id: "block_content:3a8c1f7f-b21c-4c32-93a2-140f585990b3"
-                label: "What is Rain?"
+                label: "Designed for living."
                 provider: block_content
                 label_display: '0'
                 status: 1
@@ -174,7 +174,7 @@
             - region: content
               configuration:
                 id: "block_content:5ab8d878-ef25-4c84-a655-6e48f81070b4"
-                label: "What is Rain?"
+                label: "Avid Cyclist"
                 provider: block_content
                 label_display: '0'
                 status: 1
@@ -185,7 +185,7 @@
             - region: content
               configuration:
                 id: "block_content:fb39c720-b4f4-45a4-b316-8382cc81f823"
-                label: "Built-in Features"
+                label: "Sustainable fitness for all ages."
                 provider: block_content
                 label_display: '0'
                 status: 1

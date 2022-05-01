@@ -8,7 +8,7 @@
   uid: 1
   nid: 23
   field_summary:
-    - value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, turpis at luctus finibus, erat lectus convallis velit, at sodales purus lacus quis magna. Curabitur imperdiet sapien libero, fringilla ullamcorper nibh ullamcorper vitae. Proin sed luctus augue.
+    - value: The future will be fun.
   field_thumbnail:
     - entity: media
       bundle: image
@@ -20,12 +20,12 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'race.png'
+                filename: 'bike-seat.jpg'
           alt: 'product1'
   field_product_media:
     - entity: media
       bundle: image
-      name: 'Product 1'
+      name: 'Product 2'
       status: 1
       field_image:
         - '#process':
@@ -33,8 +33,8 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'RadRunner.jpg'
-          alt: 'product1'
+                filename: 'bike-seat.jpg'
+          alt: 'product2'
     - entity: media
       bundle: image
       name: 'Product 1b'
@@ -47,18 +47,6 @@
               - type: 'module'
                 filename: 'bike-seat.jpg'
           alt: 'product1b'
-    - entity: media
-      bundle: image
-      name: 'Product 1c'
-      status: 1
-      field_image:
-        - '#process':
-            callback: 'file'
-            args:
-              - 'image'
-              - type: 'module'
-                filename: 'bike-pedal.jpg'
-          alt: 'product1c'
   field_product_desc:
     - format: "full_html"
       summary: ''
@@ -105,7 +93,7 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'bike-seat.jpg'
+                filename: 'RadRunner.jpg'
           alt: 'product2'
     - entity: media
       bundle: image
@@ -117,7 +105,7 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'bike-pedal.jpg'
+                filename: 'RadRunner.jpg'
           alt: 'product2b'
   field_product_desc:
     - format: "full_html"
@@ -153,7 +141,7 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'RadRunner.jpg'
+                filename: 'bike-pedal.jpg'
           alt: 'product3'
   field_product_media:
     - entity: media
@@ -166,7 +154,7 @@
             args:
               - 'image'
               - type: 'module'
-                filename: 'bike-seat.jpg'
+                filename: 'bike-pedal.jpg'
           alt: 'product3'
     - entity: media
       bundle: image

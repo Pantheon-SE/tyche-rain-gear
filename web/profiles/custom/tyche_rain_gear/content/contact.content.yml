@@ -21,7 +21,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "image-hero-partner.jpg"
+                filename: "neat-bikes.png"
           alt: "Partner Hero"
   field_summary:
     - value: "Think global, ride local."
@@ -36,7 +36,7 @@
   field_subhead:
     - value: "We Value Our Impact"
   field_link:
-    - uri: "internal:/contact-us"
+    - uri: "internal:/layout/contact-us"
       title: "Get In Touch"
   field_card_layout:
     - value: "wide"
@@ -147,7 +147,7 @@
         <p>Phone: 555.551.1690<br />
             Toll Free: 555.251.0005</p>
   field_link:
-    - uri: "internal:/contact-us"
+    - uri: "internal:/layout/contact-us"
       title: "Contact Us"
   field_location:
     - country_code: 'US'
@@ -229,5 +229,5 @@
             args:
               - "image"
               - type: "module"
-                filename: "image-hero-partner.jpg"
+                filename: "bike-rider.png"
           alt: "Contact Thumb"

@@ -19,7 +19,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "news-hero1.jpg"
+                filename: "news-hero2.jpg"
           alt: "News"
 - entity: block_content
   id: 24
@@ -85,7 +85,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "news-hero1.jpg"
+                filename: "news-hero2.jpg"
           alt: "News"
 
 # Blocks for Events page.
@@ -106,7 +106,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "events-hero1.jpg"
+                filename: "cargo.jpg"
           alt: "Events"
 - entity: block_content
   id: 26
@@ -170,7 +170,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "events-hero1.jpg"
+                filename: "bike-royal.jpg"
           alt: "Events"
 
 # Blocks for Blogs page.
@@ -278,14 +278,14 @@
             args:
               - "image"
               - type: "module"
-                filename: "products-hero.jpg"
+                filename: "bike-rider.png"
           alt: "Products"
 - entity: block_content
   id: 30
   uuid: 99d5498e-3af8-4304-aae2-ccc5b5ddb0c9
   type: views
   field_title:
-    - value: "Our Products"
+    - value: "Products"
   field_views_ref:
     - target_id: "recent_content_by_type"
       display_id: "block_1"
@@ -322,7 +322,7 @@
             - region: content
               configuration:
                 id: "block_content:99d5498e-3af8-4304-aae2-ccc5b5ddb0c9"
-                label: "Our Products"
+                label: "Products"
                 provider: block_content
                 label_display: '0'
                 status: 1
@@ -344,5 +344,5 @@
             args:
               - "image"
               - type: "module"
-                filename: "products-hero.jpg"
+                filename: "bike-rider.png"
           alt: "Products"

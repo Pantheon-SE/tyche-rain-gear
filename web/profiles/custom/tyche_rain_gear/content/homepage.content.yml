@@ -73,14 +73,14 @@
       field_summary:
         - value: Our expertise, accompanied by our dedication to consumer protection and right to repair drives us to create robust modular components that simplify service and boost efficiency -- we empower customers to tweak and mod our bikes without voiding your warranty.
       field_link:
-        - uri: "internal:/partner-us"
+        - uri: "internal:/layout/partner"
           title: "Repair portal"
     - entity: block_content
       id: 19
       uuid: dd12f627-2814-44c7-b131-81d5bc6b504e
       type: card_list
       field_link:
-        - uri: "internal:/about-rain"
+        - uri: "internal:/layout/about"
           title: "About"
       field_title:
         - value: "Flexibility"
@@ -106,7 +106,7 @@
             - value: "For All Riders"
           field_summary:
             value: |
-               Options, sizes, colors, and materials to suit your style and your climate! 
+              Options, sizes, colors, and materials to suit your style and your climate.
         - entity: paragraph
           type: card
           field_short_title:
@@ -128,7 +128,7 @@
             - value: "We've Got Range!"
           field_summary:
             value: |
-              Dramatically decreased discharge and faster charging when you need it!
+              Dramatically decreased discharge and faster charging when you need it.
         - entity: paragraph
           type: card
           field_short_title:

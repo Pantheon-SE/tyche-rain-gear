@@ -21,7 +21,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "upcoming-events.jpg"
+                filename: "bike-royal.jpg"
           alt: "Test Event Image 1"
   body:
     - format: "full_html"
@@ -53,7 +53,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "upcoming-events.jpg"
+                filename: "race.png"
           alt: "Test Event Image 2"
   body:
     - format: "full_html"
@@ -85,7 +85,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "upcoming-events.jpg"
+                filename: "bike-rider-street.png"
           alt: "Test Event Image 3"
   body:
     - format: "full_html"
