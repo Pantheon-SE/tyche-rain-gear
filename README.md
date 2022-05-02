@@ -1,5 +1,14 @@
 # Composer template for Drupal projects
 ## Package features
+
+A subprofile of RAIN, this comes with custom imagery content, config, and additional blocks and modules for configuration and other demos fun. Add as upstream, and go.
+
+## TODO
+
+1. Add autopilot package and personalization blocks.
+2. May also add npm right into composer scripts for direct CSS compilation later.
+3. More prettifying of the patternlab theme.
+
 ### Asset packagist support
 The Asset packagist package acts as a bridge between Composer and the popular NPM and Bower repositories, which catalog
 thousands of useful front-end and JavaScript packages. This allows developers to easily pull in packages like DropZoneJS
