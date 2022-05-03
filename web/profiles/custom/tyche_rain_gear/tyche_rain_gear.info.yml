@@ -66,10 +66,6 @@ dependencies:
   # - segmentio
   - layout_builder_browser_block_library
   - smart_content
-  - smart_content_utm
-  - smart_content_datalayer
-  - smart_content_block
-  - smart_content_browser
   - smart_content_preview
   - smart_content_cdn
 
