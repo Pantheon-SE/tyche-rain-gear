@@ -20,7 +20,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "blue-umbrella.jpg"
+                filename: "blue-bike.png"
           alt: "eBikes"
   field_block:
     - entity: block_content
