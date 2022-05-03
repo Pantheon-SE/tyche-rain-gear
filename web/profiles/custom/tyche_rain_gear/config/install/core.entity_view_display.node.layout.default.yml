@@ -69,8 +69,6 @@ third_party_settings:
         Help: {  }
         'Lists (Views)': {  }
         Menus: {  }
-        'Smart Content Block': {  }
-        'Smart Content CDN': {  }
         System: {  }
         User: {  }
         Webform: {  }
