@@ -48,7 +48,7 @@
         "mediacurrent/rain_admin": "^2.0@beta",
         "mediacurrent/rain_core": "^4.0",
         "mediacurrent/rain_features": "^4.0@beta",
-        "mediacurrent/rain_theme": "^5.0@beta",
+        "mediacurrent/rain_theme": "^4.0@beta",
         "oomphinc/composer-installers-extender": "^2.0",
         "pantheon-se/pantheon_autopilot_demo": "^1.0",
         "pantheon-systems/drupal-integrations": "^9",
