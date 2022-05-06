@@ -16,10 +16,11 @@
     }
   ],
   "require": {
-    "mediacurrent/rain": "^3.20",
-    "mediacurrent/rain_features": "^3.0@beta",
+    "mediacurrent/rain": "^4.0",
     "mediacurrent/rain_admin": "^2.0@beta",
-    "mediacurrent/rain_theme": "^4.0@beta",
+    "mediacurrent/rain_core": "^4.0",
+    "mediacurrent/rain_features": "^4.0@beta",
+    "mediacurrent/rain_theme": "^5.0@beta",
     "drupal/status_messages": "^4.2",
     "drupal/smart_content_preview": "^1.0",
     "pantheon-systems/edge-integrations-drupal-sdk": "^0.2.1",

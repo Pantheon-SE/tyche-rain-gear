@@ -44,10 +44,11 @@
         "drupal/viewsreference": "^1.7",
         "drupal/yaml_content": "^1.0@alpha",
         "drush/drush": "^11.0",
-        "mediacurrent/rain": "^3.20",
+        "mediacurrent/rain": "^4.0",
         "mediacurrent/rain_admin": "^2.0@beta",
-        "mediacurrent/rain_features": "^3.0@beta",
-        "mediacurrent/rain_theme": "^4.0@beta",
+        "mediacurrent/rain_core": "^4.0",
+        "mediacurrent/rain_features": "^4.0@beta",
+        "mediacurrent/rain_theme": "^5.0@beta",
         "oomphinc/composer-installers-extender": "^2.0",
         "pantheon-se/pantheon_autopilot_demo": "^1.0",
         "pantheon-systems/drupal-integrations": "^9",
@@ -157,9 +158,6 @@
             "drupal/core": "-p2"
         },
         "patches": {
-            "drupal/core": {
-                "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2021-11-18/1356276-675.patch"
-            },
             "drupal/default_content_deploy": {
                 "3269449 - AssertionError when trying to export content of entity type with with reference": "https://www.drupal.org/files/issues/2022-03-30/error_export_with_reference-3269449-5.patch"
             },
