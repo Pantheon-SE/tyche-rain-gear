@@ -44,7 +44,7 @@ dependencies:
   - rain_text
   - rain_views
   # - rain_search
-  - rain_resource
+  - rain_resource_type
   - rain_press_release
   - rain_article
   - rain_profile
@@ -55,7 +55,7 @@ dependencies:
   - rain_gallery_carousel
   - rain_text
   - rain_block_quote
-  - rain_quote
+  - rain_authors
   - rain_block_card
   - yaml_content
   - block_content
