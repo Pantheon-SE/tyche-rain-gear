@@ -9,3 +9,10 @@ $email = $_POST['user_email'];
 // Install from profile.
 echo "Installing tyche_rain_gear profile...\n";
 passthru("./drush_install.sh $email $title &");
+
+// // Import config changes.
+echo "Importing default content...\n";
+passthru('drush ycip tyche_rain_gear');
+echo "Importing Tyche content...\n";
+
+passthru('drush cr');

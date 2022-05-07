@@ -1,8 +1,9 @@
 <?php
 
-// // Import config changes.
-//echo "Importing default content...\n";
-//passthru('drush config-import --source profiles/contrib/tyche_rain_gear/config/install -y');
+// Import content changes.
+echo "Importing default content...\n";
+passthru('drush ycip tyche_rain_gear');
+echo "Importing Tyche content...\n";
 
 // // Clear all cache
 echo "Rebuilding cache.\n";
