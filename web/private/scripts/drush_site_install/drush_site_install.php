@@ -11,8 +11,8 @@ echo "Installing tyche_rain_gear profile...\n";
 passthru("./drush_install.sh $email $title &");
 
 // // Import config changes.
-echo "Importing default content...\n";
+echo "Importing Tyche default content...\n";
 passthru('drush ycip tyche_rain_gear');
-echo "Importing Tyche content...\n";
+echo "Tyche content imported.\n";
 
 passthru('drush cr');

@@ -12,3 +12,95 @@
       summary: ""
       value: |
         <p>&copy; 2022, TycheBikes</p>
+
+- entity: "block_content"
+  type: "text"
+  info: "Text: Footer message"
+  status: 1
+  uuid: b1c887e9-ccbb-4a35-86dc-04d12c880fac
+  id: 102
+  body:
+    - format: "full_html"
+      summary: ""
+      value: |
+        <p>Bikes rule.</p>
+
+# Blocks for personalizations
+- entity: block_content
+  id: 203
+  uuid: 20adb562-c2fc-40b2-80bc-75797d12dec0
+  type: hero
+  field_subhead:
+    - value: Think global, ride local.
+  field_summary:
+    - value: Steering towards a better world.
+  field_link:
+    - uri: "internal:/"
+      title: "TycheBikes"
+  field_title:
+    - value: "TycheBikes US"
+  field_media:
+    - entity: media
+      bundle: image
+      name: "Brooklyn Bridge eBikes"
+      status: 1
+      field_image:
+        - "#process":
+            callback: "file"
+            args:
+              - "image"
+              - type: "module"
+                filename: "ebike-bridge.jpg"
+          alt: "eBikes in front of the Brooklyn bridge."
+- entity: block_content
+  id: 204
+  uuid: 20adb562-c2fc-40b2-80bc-75797db2fec0
+  type: hero
+  field_subhead:
+    - value: Think global, ride local.
+  field_summary:
+    - value: Steering towards a better world.
+  field_link:
+    - uri: "internal:/"
+      title: "TycheBikes"
+  field_title:
+    - value: "TycheBikes Canada"
+  field_media:
+    - entity: media
+      bundle: image
+      name: "Biking in the snow"
+      status: 1
+      field_image:
+        - "#process":
+            callback: "file"
+            args:
+              - "image"
+              - type: "module"
+                filename: "riding-in-winter.jpg"
+          alt: "Bike in snow leaning against a wall."
+- entity: block_content
+  id: 205
+  uuid: 20adb562-c2fc-40b2-80bc-75797db2eec0
+  type: hero
+  field_subhead:
+    - value: Think global, ride local.
+  field_summary:
+    - value: Steering towards a better world.
+  field_link:
+    - uri: "internal:/"
+      title: "TycheBikes"
+  field_title:
+    - value: "TycheBikes Europe"
+  field_media:
+    - entity: media
+      bundle: image
+      name: "Riders on a cobbled street."
+      status: 1
+      field_image:
+        - "#process":
+            callback: "file"
+            args:
+              - "image"
+              - type: "module"
+                filename: "europe-biking.jpg"
+          alt: "Riding in a historical city."

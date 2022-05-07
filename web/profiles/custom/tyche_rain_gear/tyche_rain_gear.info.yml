@@ -112,6 +112,7 @@ dependencies:
   # - segmentio
   - layout_builder_browser_block_library
   - smart_content
+  - smart_content_block
   - smart_content_preview
   - smart_content_cdn
   # se demo modules
@@ -119,6 +120,6 @@ dependencies:
 # List any themes that should be installed as part of the installation.
 # Note that this will not set any theme as the default theme.
 themes:
-  - spokes
   - rain_theme
   - rain_admin
+  - spokes

@@ -1,0 +1,10 @@
+uuid: 9ff0ad40-274e-4aa0-96bf-027cca564bb7
+langcode: en
+status: true
+dependencies: {  }
+id: personalization
+block_id: smart_content_cdn_ssr_decision_block
+category: content
+label: Personalization
+image_path: /modules/contrib/rain_features/modules/rain_blocks/modules/rain_embed/images/embed.svg
+image_alt: ''
