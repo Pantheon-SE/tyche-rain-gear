@@ -25,7 +25,65 @@ dependencies:
 # Required modules
 # Installs Guardr recommended modules and configuration.
   # - guardr_core
-  - rain_core
+  - admin_toolbar
+  - admin_toolbar_tools
+  - automated_cron
+  - block
+  - breakpoint
+  - ckeditor
+  - components
+  - config
+  - content_moderation
+  - contextual
+  - ctools
+  - datetime
+  - datetime_range
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - field
+  - field_ui
+  - file
+  - filter
+  - google_analytics
+  - help
+  - history
+  - image
+  - inline_entity_form
+  - link
+  - linkit
+  - locale
+  - menu_link_content
+  - menu_ui
+  - metatag
+  - moderation_sidebar
+  - node
+  - options
+  - path
+  - pathauto
+  - redirect
+  - rdf
+  - responsive_image
+  - shortcut
+  - simple_sitemap
+  - system
+  - taxonomy
+  - text
+  - token
+  - toolbar
+  - tour
+  - twig_tweak
+  - twig_field_value
+  - user
+  - video_embed_field
+  - views
+  - views_ui
+  - workflows
+  - yaml_content
+  - block_content
+  - status_messages
+  - color
+  ## RAIN modules
   - rain_media_bundle
   - rain_layout
   - rain_styles
@@ -57,17 +115,15 @@ dependencies:
   - rain_block_quote
   - rain_authors
   - rain_block_card
-  - yaml_content
-  - block_content
-  - status_messages
-  - color
   - rain_admin_module
   - rain_admin_jumpnav
+  ## personalization modules
   # - segmentio
   - layout_builder_browser_block_library
   - smart_content
   - smart_content_preview
   - smart_content_cdn
+  # se demo modules
 
 # List any themes that should be installed as part of the installation
 # profile installation.
