@@ -28,7 +28,7 @@
       uuid: 20adb562-cefc-40b2-80bc-75797db2dec0
       type: hero
       field_subhead:
-        - value: Thing global, ride local.
+        - value: Think global, ride local.
       field_summary:
         - value: Steering towards a better world.
       field_link:
@@ -80,19 +80,23 @@
       uuid: dd12f627-2814-44c7-b131-81d5bc6b504e
       type: card_list
       field_link:
-        - uri: "internal:/layout/about"
+        - uri: "internal:/"
           title: "About"
       field_title:
         - value: "Flexibility"
+      field_card_list_layout:
+        - value: "_none"
       field_card:
         - entity: paragraph
           type: card
+          field_card_layout:
+            - value: _none
           field_short_title:
             - value: "Design your ride"
           field_media:
             - entity: media
               bundle: image
-              name: "Promo 1"
+              name: "Icon - Edit"
               status: 1
               field_image:
                 - "#process":
@@ -101,7 +105,7 @@
                       - "image"
                       - type: "module"
                         filename: "icon-edit.gif"
-                  alt: "Promo 1"
+                  alt: "Edit Icon"
           field_title:
             - value: "For All Riders"
           field_summary:
@@ -111,10 +115,12 @@
           type: card
           field_short_title:
             - value: "2-3X Faster"
+          field_card_layout:
+            - value: _none
           field_media:
             - entity: media
               bundle: image
-              name: "Promo 2"
+              name: "Icon - Performance"
               status: 1
               field_image:
                 - "#process":
@@ -123,7 +129,7 @@
                       - "image"
                       - type: "module"
                         filename: "icon-performance.gif"
-                  alt: "Promo 2"
+                  alt: "Performance Icon"
           field_title:
             - value: "We've Got Range!"
           field_summary:
@@ -133,10 +139,12 @@
           type: card
           field_short_title:
             - value: "Swappable"
+          field_card_layout:
+            - value: _none
           field_media:
             - entity: media
               bundle: image
-              name: "Promo 3"
+              name: "Icon - Cost"
               status: 1
               field_image:
                 - "#process":
@@ -145,7 +153,7 @@
                       - "image"
                       - type: "module"
                         filename: "icon-cost.gif"
-                  alt: "Promo 3"
+                  alt: "Icon - Cost"
           field_title:
             - value: "Driving value"
           field_summary:
@@ -155,10 +163,12 @@
           type: card
           field_short_title:
             - value: "We've got this."
+          field_card_layout:
+            - value: _none
           field_media:
             - entity: media
               bundle: image
-              name: "Promo 4"
+              name: "Icon - Security"
               status: 1
               field_image:
                 - "#process":
@@ -172,7 +182,7 @@
             - value: "Security"
           field_summary:
             value: |
-              Ignition lock and a GPS tracker built into the frame make ours the most secure eBike in the world.
+              Ignition lock and GPS in the frame, meet the most secure eBike in the world.
     - entity: block_content
       id: 20
       uuid: bb1c9d8f-1a2f-410f-b7c0-975627142e4e
@@ -209,7 +219,7 @@
       field_media:
         - entity: media
           bundle: image
-          name: "Card 1"
+          name: "Tricycle"
           status: 1
           field_image:
             - "#process":
@@ -218,7 +228,7 @@
                   - "image"
                   - type: "module"
                     filename: "tricycle.png"
-              alt: "Card 1"
+              alt: "Tricycle"
       field_summary:
         value: |
           We support community bike clubs and events, and provide bikes to low-income kids so they can get on their way to a lifetime of fitness and fun.

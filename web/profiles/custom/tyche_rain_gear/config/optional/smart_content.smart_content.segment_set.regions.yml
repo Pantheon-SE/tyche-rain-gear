@@ -1,0 +1,128 @@
+uuid: 9d31a7e4-b2e1-48f8-a5d2-213e6ef730bd
+langcode: en
+status: true
+dependencies: {  }
+id: regions
+label: Countries
+settings:
+  segments:
+    dee37fdc-0537-4f56-bcac-422dfe3e3b80:
+      uuid: dee37fdc-0537-4f56-bcac-422dfe3e3b80
+      weight: 0
+      label: Canada
+      default: false
+      conditions:
+        group:
+          id: group
+          weight: 0
+          negate: false
+          type: 'plugin:group'
+          op: AND
+          conditions:
+            'smart_cdn:geo':
+              id: 'smart_cdn:geo'
+              weight: 0
+              negate: false
+              type: 'type:textfield'
+              condition_type_settings:
+                negate: '0'
+                op: equals
+                value: CA
+    d2a56e1c-2a61-4e38-a7e3-3319b53558c1:
+      uuid: d2a56e1c-2a61-4e38-a7e3-3319b53558c1
+      weight: 0
+      label: 'United States'
+      default: true
+      conditions:
+        group:
+          id: group
+          weight: 0
+          negate: false
+          type: 'plugin:group'
+          op: AND
+          conditions:
+            'smart_cdn:geo':
+              id: 'smart_cdn:geo'
+              weight: 0
+              negate: false
+              type: 'type:textfield'
+              condition_type_settings:
+                negate: '0'
+                op: equals
+                value: US
+    2d816bde-0273-4da3-b869-6c76d3920b5b:
+      uuid: 2d816bde-0273-4da3-b869-6c76d3920b5b
+      weight: 0
+      label: Europe
+      default: false
+      conditions:
+        group:
+          id: group
+          weight: 0
+          negate: false
+          type: 'plugin:group'
+          op: OR
+          conditions:
+            'smart_cdn:geo':
+              id: 'smart_cdn:geo'
+              weight: 0
+              negate: false
+              type: 'type:textfield'
+              condition_type_settings:
+                negate: '0'
+                op: equals
+                value: UK
+            'smart_cdn:geo_2':
+              id: 'smart_cdn:geo'
+              weight: 0
+              negate: false
+              type: 'type:textfield'
+              condition_type_settings:
+                negate: '0'
+                op: equals
+                value: DE
+            'smart_cdn:geo_3':
+              id: 'smart_cdn:geo'
+              weight: 0
+              negate: false
+              type: 'type:textfield'
+              condition_type_settings:
+                negate: '0'
+                op: equals
+                value: FR
+            'smart_cdn:geo_4':
+              id: 'smart_cdn:geo'
+              weight: 0
+              negate: false
+              type: 'type:textfield'
+              condition_type_settings:
+                negate: '0'
+                op: equals
+                value: BE
+            'smart_cdn:geo_5':
+              id: 'smart_cdn:geo'
+              weight: 0
+              negate: false
+              type: 'type:textfield'
+              condition_type_settings:
+                negate: '0'
+                op: equals
+                value: DK
+            'smart_cdn:geo_6':
+              id: 'smart_cdn:geo'
+              weight: 0
+              negate: false
+              type: 'type:textfield'
+              condition_type_settings:
+                negate: '0'
+                op: equals
+                value: FI
+            'smart_cdn:geo_7':
+              id: 'smart_cdn:geo'
+              weight: 0
+              negate: false
+              type: 'type:textfield'
+              condition_type_settings:
+                negate: '0'
+                op: equals
+                value: SE

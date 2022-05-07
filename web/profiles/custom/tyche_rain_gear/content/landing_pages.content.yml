@@ -191,7 +191,7 @@
             args:
               - "image"
               - type: "module"
-                filename: "bike-rider.png"
+                filename: "country-bikes.jpg"
           alt: "Products"
 - entity: block_content
   id: 30

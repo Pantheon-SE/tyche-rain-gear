@@ -1,0 +1,12 @@
+set_vary: true
+geo_default: CA
+interest_threshold: '2'
+interest_fields_node_article:
+  field_tags: field_tags
+  field_authors: 0
+interest_fields_node_blog:
+  field_tags: field_tags
+  field_authors: 0
+interest_fields_node_press_release:
+  field_tags: field_tags
+  field_authors: 0
