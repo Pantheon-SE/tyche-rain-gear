@@ -31,6 +31,6 @@ function tyche_rain_gear_install_content() {
 
   \Drupal::configFactory()
     ->getEditable('system.theme')
-    ->set('default', $theme)
+    ->set('default', 'spokes')
     ->save();
 }

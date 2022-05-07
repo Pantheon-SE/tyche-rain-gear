@@ -29,10 +29,13 @@ dependencies:
   - admin_toolbar_tools
   - automated_cron
   - block
+  - block_content
   - breakpoint
   - ckeditor
+  - color
   - components
   - config
+  - config_filter
   - content_moderation
   - contextual
   - ctools
@@ -79,14 +82,12 @@ dependencies:
   - views
   - views_ui
   - workflows
-  - yaml_content
-  - block_content
   - status_messages
-  - color
   ## RAIN modules
   - rain_media_bundle
   - rain_layout
   - rain_styles
+  - rain_blocks
   - rain_event
   - rain_page
   - rain_product
@@ -117,6 +118,7 @@ dependencies:
   - rain_block_card
   - rain_admin_module
   - rain_admin_jumpnav
+  - yaml_content
   ## personalization modules
   # - segmentio
   - layout_builder_browser_block_library
