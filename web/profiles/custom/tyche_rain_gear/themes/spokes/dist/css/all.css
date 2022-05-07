@@ -35,7 +35,7 @@
 html {
   font-family: "Lato", "Arial", sans-serif;
   font-size: 100%;
-  line-height: 1.15;
+  line-height: 1.20;
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%; }
 
@@ -207,11 +207,11 @@ h6 {
   @media screen and (min-width: 768px) {
     .block-content--type--text p,
     .node__body p {
-      font-size: 1.2rem; } }
+      font-size: 1.1rem; } }
   @media screen and (min-width: 1200px) {
     .block-content--type--text p,
     .node__body p {
-      font-size: 1.5rem; } }
+      font-size: 1.3rem; } }
 
 .user-pass,
 .user-login-form {
@@ -825,8 +825,8 @@ input[type='submit'] {
         flex: none;
         width: 50%;
         max-width: none;
-        padding-left: 1.5rem;
-        padding-right: calc(1.5rem + ((100vw - 1440px) / 2)); } }
+        padding-left: 4rem;
+        padding-right: calc(4rem + ((100vw - 1440px) / 2)); } }
   .card--wide .card__eyebrow {
     margin-top: 0;
     text-transform: uppercase;
@@ -1000,7 +1000,7 @@ input[type='submit'] {
   padding: 1rem 2rem;
   border: solid #000002 1px;
   display: inline-block;
-  border-radius: 30px;
+  border-radius: 6px;
   transition: all 0.25s; }
   @media screen and (min-width: 768px) {
     .block-content--type-breaker .card__link {
@@ -2270,11 +2270,11 @@ input[type='submit'] {
       margin-right: 15px; } }
   .site-logo svg {
     fill: #ffffff;
-    height: 4rem;
+    height: 10rem;
     width: auto; }
     @media screen and (min-width: 768px) {
       .site-logo svg {
-        height: 130px; } }
+        height: 154px; } }
 
 .site-name a {
   color: #464646;
