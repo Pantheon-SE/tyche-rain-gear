@@ -226,7 +226,7 @@
 # Homepage (layout builder).
 - entity: "node"
   type: "layout"
-  title: "TycheBikes"
+  title: "Homepage"
   status: 1
   uid: 1
   nid: 101
