@@ -32,7 +32,7 @@
       field_summary:
         - value: Steering towards a better world.
       field_link:
-        - uri: "internal:/"
+        - uri: "internal:/layout/products"
           title: "TycheBikes"
       field_title:
         - value: "TycheBikes"
