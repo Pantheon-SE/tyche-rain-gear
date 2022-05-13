@@ -29,6 +29,7 @@
         "drupal/core-recommended": "^9.0@stable",
         "drupal/google_tag": "^1.5",
         "drupal/guardr_core": "^2.0",
+        "drupal/hubspot": "^3.0@alpha",
         "drupal/jsonapi_include_lb": "1.0.x-dev@dev",
         "drupal/jwt": "^1.0@RC",
         "drupal/key": "^1.15",

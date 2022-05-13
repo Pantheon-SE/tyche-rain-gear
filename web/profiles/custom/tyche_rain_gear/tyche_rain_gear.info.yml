@@ -123,6 +123,7 @@ dependencies:
   # - segmentio
   - layout_builder_browser_block_library
   - smart_content
+  - smart_content_block
   - smart_content_preview
   - smart_content_cdn
   # se demo modules
