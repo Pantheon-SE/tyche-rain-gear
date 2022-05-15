@@ -1,0 +1,7 @@
+smart_content_segmentio.admin_settings_form:
+  path: /admin/config/system/smart_content_segmentio
+  defaults:
+    _title: 'Smart Content Segment Configuration'
+    _form: \Drupal\smart_content_segmentio\Form\SmartContentSegmentioAdminSettingsForm
+  requirements:
+    _permission: 'administer smart_content_segmentio'
