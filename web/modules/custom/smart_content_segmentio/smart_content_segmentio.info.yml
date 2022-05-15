@@ -1,0 +1,11 @@
+name: 'Smart Content Segmentio'
+description: 'Integrate Segment into Smart Content.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Statistics
+type: module
+
+# Information added by Drupal.org packaging script on 2021-10-11
+version: '8.x-1.0-alpha1'
+project: 'smart_content_segmentio'
+datestamp: 1633942570

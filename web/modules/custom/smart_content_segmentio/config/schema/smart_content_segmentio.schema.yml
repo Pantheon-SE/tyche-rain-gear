@@ -1,0 +1,14 @@
+smart_content_segmentio.settings:
+  type: mapping
+  label: Settings
+  mapping:
+    smart_content_segmentio_write_key:
+      type: string
+    smart_content_segmentio_privacy:
+      type: integer
+    smart_content_segmentio_track:
+      type: sequence
+      label: 'Additional information that should be tracked.'
+      sequence:
+        type: string
+        label: 'Module'

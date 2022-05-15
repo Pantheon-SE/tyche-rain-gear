@@ -1,0 +1,9 @@
+smart_content_segmentio:
+  version: 1.x
+  js:
+    js/smart_content_segmentio.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
