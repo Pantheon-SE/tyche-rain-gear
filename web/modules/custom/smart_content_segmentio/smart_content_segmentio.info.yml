@@ -6,3 +6,4 @@ package: Statistics
 type: module
 dependencies:
   - smart_content
+  - segmentio
