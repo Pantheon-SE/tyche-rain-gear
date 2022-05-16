@@ -26,7 +26,7 @@
   uuid: 89bb8a53-2650-403a-9dd6-10d9316f0cf0
   type: views
   field_title:
-    - value: "Recent News"
+    - value: "Recent Articles"
   field_views_ref:
     - target_id: "recent_content_by_type"
       display_id: "block_1"
@@ -94,7 +94,7 @@
   uuid: f46ad5d8-5a10-4082-a15e-234c2e2454a3
   type: hero
   field_title:
-    - value: "tychEvents"
+    - value: "Tyche Events"
   field_media:
     - entity: media
       bundle: image
