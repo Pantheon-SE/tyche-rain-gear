@@ -3,34 +3,49 @@
 # Taxonomy terms for this file.
 - entity: "taxonomy_term"
   vid: "tags"
-  name: "Commuting"
-- entity: "taxonomy_term"
-  vid: "tags"
-  name: "Recreational"
-- entity: "taxonomy_term"
-  vid: "tags"
-  name: "Pro Riders"
-- entity: "taxonomy_term"
-  vid: "tags"
-  name: "Outdoors"
-- entity: "taxonomy_term"
-  vid: "tags"
-  name: "Winterizing"
-- entity: "taxonomy_term"
-  vid: "tags"
-  name: "Cold Weather Riding"
-- entity: "taxonomy_term"
-  vid: "tags"
-  name: "Maintenance"
-- entity: "taxonomy_term"
-  vid: "tags"
-  name: "Budget"
+  name: "Accessibility"
 - entity: "taxonomy_term"
   vid: "tags"
   name: "Batteries"
 - entity: "taxonomy_term"
   vid: "tags"
+  name: "Budget"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Cities"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Climate"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Cold-Weather Riding"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Community"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Commuting"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Outdoors"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Pro Riders"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Recreation"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Winterizing"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Maintenance"
+- entity: "taxonomy_term"
+  vid: "tags"
   name: "Modding"
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Universal biking"
 - entity: "taxonomy_term"
   vid: "authors"
   name: "John Smith"
@@ -40,18 +55,18 @@
 # Nodes for the Article bundle.
 - entity: "node"
   type: "article"
-  title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  title: "Spring tune-up time!"
   status: 1
   uid: 1
   nid: 2
   field_subhead:
-    - value: Curabitur imperdiet sapien libero, fringilla ullamcorper nibh ullamcorper vitae.
+    - value: Getting your bike ready for the season.
   field_summary:
-    - value: Curabitur imperdiet sapien libero, fringilla ullamcorper nibh ullamcorper vitae.
+    - value: "Getting your bike ready for the season."
   field_thumbnail:
     - entity: media
       bundle: image
-      name: "Phasellus auctor, turpis at luctus finibus"
+      name: "Battery close-up"
       status: 1
       field_image:
         - "#process":
@@ -60,52 +75,51 @@
               - "image"
               - type: "module"
                 filename: "mod-bike.jpg"
-          alt: "Article 1"
+          alt: "Bike battery close-up"
   body:
     - format: "full_html"
       summary: ""
       value: |
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et ante eu nisl finibus molestie. Maecenas vehicula arcu eget tristique congue. Sed et metus sit amet eros pellentesque dignissim.</p>
+        <p>Just like any regular bicycle, your electric bike is going to need a bit of routine maintenance. The electrical systems usually take care of themselves; but like all vehicles, t’s the tires, the brakes, and wheels that need a bit of TLC.</p><p>We'll ensure that before you buy, your bike is in tip-top shape from the moment you take it out of our store. This is especially important for ebikes, as they need to be set up correctly. To get the longest life possible out of your TycheBike, you can take some simple steps to maintain it yourself -- you can take it to an experienced dealer.</p>
   field_tags:
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
           - vid: "tags"
-            name: "Cold Weather Riding"
+            name: "Cold-Weather Riding"
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
           - vid: "tags"
             name: "Winterizing"
-  field_authors:
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
-          - vid: "authors"
-            name: "John Smith"
+          - vid: "tags"
+            name: "Maintenance"
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
-          - vid: "authors"
-            name: "Jane Doe"
+          - vid: "tags"
+            name: "Batteries"
 - entity: "node"
   type: "article"
-  title: "Sed condimentum, elit nec iaculis luctus, velit neque"
+  title: "Accessible bicycle resources"
   status: 1
   uid: 1
   nid: 3
   field_subhead:
-    - value: Curabitur imperdiet sapien libero, fringilla ullamcorper nibh ullamcorper vitae.
+    - value: eBikes change the game for both recreation and transportation.
   field_summary:
-    - value: "Curabitur imperdiet sapien libero, fringilla ullamcorper nibh ullamcorper vitae."
+    - value: "eBikes change the game for both recreation and transportation."
   field_thumbnail:
     - entity: media
       bundle: image
-      name: "Erat lectus convallis velit, at sodales"
+      name: "Woman with bike"
       status: 1
       field_image:
         - "#process":
@@ -114,52 +128,57 @@
               - "image"
               - type: "module"
                 filename: "street-bike.jpg"
-          alt: "Article 2"
+          alt: "Woman with bike"
   body:
     - format: "full_html"
       summary: ""
       value: |
-        <p>Mauris pretium nibh sapien, quis commodo augue blandit et. Morbi vel rhoncus lacus. Vestibulum lectus velit, scelerisque quis placerat ut, euismod euismod nulla. Fusce pellentesque condimentum suscipit. Nam viverra velit nec tellus rutrum congue. Sed ut erat tempor orci sollicitudin dignissim nec vitae felis.</p>
+        <p>The cities where bicycling is most successful as a legitimate mode of transportation are the ones who make bike infrastructure and resources available to as wide a portion of the public as possible. This goes beyond physical infrastructure -- successful biking requires multi-faceted community-wide effort to make it available to all.</p><p>Think women-friendly bike shops, affordable bike co-ops, bicycle route maps available in tourism offices, and a strong bike advocacy movement that represents the diversity of its community. Think bike lanes that are safe enough for a child to ride down unaccompanied, wide enough for a disability scooter to fit in, and reaching into the city’s low-income neighbourhoods as well as its business district.</p>
   field_tags:
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
           - vid: "tags"
-            name: "Batteries"
+            name: "Accessibility"
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
           - vid: "tags"
             name: "Budget"
-  field_authors:
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
-          - vid: "authors"
-            name: "John Smith"
+          - vid: "tags"
+            name: "Community"
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
-          - vid: "authors"
-            name: "Jane Doe"
+          - vid: "tags"
+            name: "Commuting"              
+    - "#process":
+        callback: "reference"
+        args:
+          - "taxonomy_term"
+          - vid: "tags"
+            name: "Recreation"
 - entity: "node"
   type: "article"
-  title: "Maecenas eu leo a sem consectetur consectetur vitae non nis"
+  title: "All-season biking"
   status: 1
   uid: 1
   nid: 4
   field_subhead:
-    - value: Curabitur imperdiet sapien libero, fringilla ullamcorper nibh ullamcorper vitae.
+    - value: Hot or cold, tips to arrive cool and dry.
   field_summary:
-    - value: Curabitur imperdiet sapien libero, fringilla ullamcorper nibh ullamcorper vitae.
+    - value: "Hot or cold, tips to arrive cool and dry."
   field_thumbnail:
     - entity: media
       bundle: image
-      name: "Curabitur imperdiet sapien libero"
+      name: "Beach bike"
       status: 1
       field_image:
         - "#process":
@@ -168,12 +187,12 @@
               - "image"
               - type: "module"
                 filename: "beach-bike.jpg"
-          alt: "Article 3"
+          alt: "Bike arriving at the beach"
   body:
     - format: "full_html"
       summary: ""
       value: |
-        <p>Mauris eleifend egestas metus, vitae finibus elit pellentesque et. Cras sodales, nulla eget euismod ornare, nibh lorem ullamcorper risus, cursus vestibulum enim risus ac nunc. Nunc sollicitudin, lorem at pretium porttitor, nibh lacus facilisis ligula, vitae scelerisque elit sem eget erat. Phasellus consectetur tempor nunc, eu varius nunc lobortis nec. Ut consectetur nulla in lorem finibus, et pharetra metus pulvinar.</p>
+        <p>Cycling to work in the pouring rain is not as fun as cycling to work in mild, dry weather. Getting ready to ride through a snowstorm takes a bit more prep than hopping on your wheels in shorts and a t-shirt. But if climate mattered the most for biking, then LA would be the most bike-friendly city on the planet!</p><p>Vancouver gets so much rain that it's earned the nickname “Raincouver.” And yet, at 10%, it has one of the highest mode shares in North America, with a vibrant urban cycling scene even throughout the squelchiest weather.</p>
   field_tags:
     - "#process":
         callback: "reference"
@@ -193,33 +212,32 @@
           - "taxonomy_term"
           - vid: "tags"
             name: "Outdoors"
-  field_authors:
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
-          - vid: "authors"
-            name: "John Smith"
+          - vid: "tags"
+            name: "Wet Riding"
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
-          - vid: "authors"
-            name: "Jane Doe"
+          - vid: "tags"
+            name: "Cold-Weather Riding"
 - entity: "node"
   type: "article"
-  title: "Nunc suscipit, tortor at accumsan viverra"
+  title: "What makes a great cycling city?"
   status: 1
   uid: 1
   nid: 5
   field_subhead:
-    - value: Nullam nisi orci, pharetra tristique neque nec, venenatis iaculis ipsum.
+    - value: "Bike lanes aren't the only thing, but they help!"
   field_summary:
-    - value: Nullam nisi orci, pharetra tristique neque nec, venenatis iaculis ipsum.
+    - value: Bike lanes are not the only thing, but they help!
   field_thumbnail:
     - entity: media
       bundle: image
-      name: "Curabitur imperdiet sapien libero"
+      name: "Deraileur"
       status: 1
       field_image:
         - "#process":
@@ -228,35 +246,34 @@
               - "image"
               - type: "module"
                 filename: "bike-pedal.jpg"
-          alt: "Article 4"
+          alt: "Bike pedal and deraileur"
   body:
     - format: "full_html"
       summary: ""
       value: |
-        <p>Mauris eleifend egestas metus, vitae finibus elit pellentesque et. Cras sodales, nulla eget euismod ornare, nibh lorem ullamcorper risus, cursus vestibulum enim risus ac nunc. Nunc sollicitudin, lorem at pretium porttitor, nibh lacus facilisis ligula, vitae scelerisque elit sem eget erat. Phasellus consectetur tempor nunc, eu varius nunc lobortis nec. Ut consectetur nulla in lorem finibus, et pharetra metus pulvinar.</p>
+        <p>It's not just that Amsterdam and Copenhagen are flat! A lack of hills is helpful for a robust and diverse cycling community. And it absolutely helps for cargo biking and elderly cycling. But it's just one of many factors that can make or break a city's bikeability, and now eBikes are changing the game on topography.</p>
   field_tags:
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
           - vid: "tags"
-            name: "Modding"
+            name: "Climate"
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
           - vid: "tags"
-            name: "Recreational"
-  field_authors:
+            name: "Cities"
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
-          - vid: "authors"
-            name: "John Smith"
+          - vid: "tags"
+            name: "Universal biking"
     - "#process":
         callback: "reference"
         args:
           - "taxonomy_term"
-          - vid: "authors"
-            name: "Jane Doe"
+          - vid: "tags"
+            name: "Recreation"
