@@ -1,0 +1,18 @@
+tyche_segment_leadgen:
+  version: 1.0
+  js:
+    js/segment_identify.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/drupalSettings
+  css:
+    theme:
+      css/tyche_leadgen.css: {}
+
+tyche_hubspot_leadgen:
+  version: 1.0
+  js:
+    js/leadgen_utm_capture.js: {}
+  dependencies:
+    - core/drupal

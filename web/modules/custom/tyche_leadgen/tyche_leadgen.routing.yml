@@ -1,0 +1,7 @@
+tyche_leadgen.admin_config:
+  path: 'admin/config/services/tyche_leadgen'
+  defaults:
+    _title: 'Tyche Leadgen Settings'
+    _form: '\Drupal\tyche_leadgen\Form\TycheLeadgenSettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

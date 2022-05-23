@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Implementing here hooks and preprocesses.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function tyche_leadgen_theme($existing, $type, $theme, $path) {
+  return [
+    'tyche_leadgen_form' => [
+        'render element' => 'form',
+    ],
+  ];
+}  
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function tyche_leadgen_page_attachments_alter(array &$page) {
+  // Attach the capture lib on every page, for ALL THE POWER.
+  $page['#attached']['library'][] = 'tyche_leadgen/tyche_hubspot_leadgen';
+}
