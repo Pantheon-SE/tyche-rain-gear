@@ -1,0 +1,9 @@
+name: Tyche Leadgen Analytics
+description: Creates a demo leadgen webform.
+package: Custom
+
+type: module
+core_version_requirement: ^9
+
+dependencies:
+  - segmentio:segmentio

@@ -1,0 +1,18 @@
+{% set classes = ['block'] %}
+
+<div{{ attributes.addClass(classes) }}>
+  {{ title_prefix }}
+  {% if label %}
+    <h2{{ title_attributes }}>{{ label }}</h2>
+  {% endif %}
+
+  {{ title_suffix }}
+
+  {% block content %}
+    <div class="container">
+      <h2 class="leadgen_response heading card__title">{{ 'Sign up for our mailing list!'|t }}</h2>
+    </div>
+    {{ form }}
+  {% endblock %}
+
+</div>
