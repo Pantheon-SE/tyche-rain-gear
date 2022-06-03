@@ -1,0 +1,9 @@
+name: 'Smart Content Segmentio'
+description: 'Integrate Segment into Smart Content.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Statistics
+type: module
+dependencies:
+  - smart_content
+  - segmentio

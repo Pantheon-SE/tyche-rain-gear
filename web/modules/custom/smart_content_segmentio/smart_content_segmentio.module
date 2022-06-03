@@ -1,0 +1,92 @@
+<?php
+
+/**
+ * @file
+ * Drupal Module: smart_content_segmentio.
+ *
+ * smart_content_segmentio is the easiest way to integrate analytics into your Drupal site.
+ * By installing smart_content_segmentio's Drupal plugin you can add any analytics service
+ * to your site without touching any code.
+ */
+
+use Drupal\Core\Entity\EntityInterface;
+use Pantheon\EI\HeaderData;
+use Drupal\taxonomy\TermInterface;
+
+/**
+ * Implements hook_segmentio_info().
+ */
+function smart_content_segmentio_info() {
+  return [
+    'segmentio:segmentio_keywords' => t('Keywords'),
+    'segmentio:segmentio_smart_content' => t('Smart Content'),
+  ];
+}
+
+/**
+ * Retrieve information from certain node views.
+ */
+function segmentio_segmentio_keywords(&$variables = []) {
+  
+  $node = \Drupal::routeMatch()->getParameter('node');
+
+  if ($node) {
+    $terms = [];    
+    foreach ($node->getFields() as $key => $field) {
+      if ($field->getFieldDefinition()->getType() == 'entity_reference') {
+        $targetType = $field->getFieldDefinition()
+          ->getItemDefinition()
+          ->getSetting('target_type');
+        if ($targetType == 'taxonomy_term') {
+          $new_terms = array_map(function (\Drupal\taxonomy\TermInterface $term) {
+            return $term->label();
+          }, $field->referencedEntities());
+          $terms = array_merge($terms, $new_terms);
+        }
+      }
+    }
+
+    if (isset($terms)) {
+      $variables['page']['properties']['keywords'] = $terms;
+    }
+
+  }
+}
+
+/**
+ * Segment.io callback; Retrieve Segment code for the logged in user.
+ */
+function segmentio_segmentio_smart_content(&$variables = []) {
+  $user = \Drupal::currentUser();
+  if ($user) {
+    // Get categories
+    $term_storage = \Drupal::entityTypeManager()->getStorage('taxonomy_term');
+
+    // Get header data.
+    $smart_content_cdn = new HeaderData();
+    $p_obj = $smart_content_cdn->returnPersonalizationObject();
+
+    // Add labels for interest terms to $p_obj.
+    if (!empty($p_obj['Interest'])) {
+      foreach ($p_obj['Interest'] as $tid) {
+        // Load taxonomy term by tid.
+        $term = $term_storage->load($tid);
+        if (!empty($term)) {
+          // Add label for taxonomy term.
+          $variables['identify']['traits']['interests'][] = strtolower($term->label());
+        }
+      }
+    }
+
+    if (!empty($p_obj['Audience']) && !empty($p_obj['Audience-Set'])) {
+      $variables['identify']['traits']['geo'] = strtolower($p_obj['Audience']['geo']);
+      $variables['identify']['traits']['city'] = strtolower($p_obj['Audience-Set']['city']);
+      $variables['identify']['traits']['conn-speed'] = strtolower($p_obj['Audience-Set']['conn-speed']);
+      $variables['identify']['traits']['conn-type'] = strtolower($p_obj['Audience-Set']['conn-type']);
+      $variables['identify']['traits']['continent'] = strtolower($p_obj['Audience-Set']['continent']);
+      $variables['identify']['traits']['country'] = strtolower($p_obj['Audience-Set']['country']);
+      $variables['identify']['traits']['region'] = strtolower($p_obj['Audience-Set']['region']);
+    }
+
+  }
+}
