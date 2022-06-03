@@ -1,0 +1,6 @@
+tyche.admin:
+  title: 'Tyche demo settings'
+  description: 'Add Tyche demo martech integration settings.'
+  parent: system.admin_config_development
+  route_name: tyche_leadgen.admin_config
+  weight: 100
