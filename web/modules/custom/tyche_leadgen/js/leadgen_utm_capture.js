@@ -6,7 +6,7 @@
 (function ($, Drupal) {
 
 function whenAvailable(name, callback) {
-    var interval = 10; // ms
+    var interval = 10; // ms to ensure Segmentio isloaded
     window.setTimeout(function() {
         if (window[name]) {
             callback(window[name]);
@@ -18,9 +18,8 @@ function whenAvailable(name, callback) {
 
 whenAvailable("analytics", function(t) {
   const params = new URLSearchParams(window.location.search);
-  console.log('ayyy');
-  if(params.has('hubspotId')) {
-    let hsid = params.get('hubspotId');
+  if(params.has('__hsid')) {
+    let hsid = params.get('__hsid');
     console.log(hsid);
     analytics.identify({ hubspotId: hsid });
   }
